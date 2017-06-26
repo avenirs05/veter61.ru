@@ -41,9 +41,6 @@
                 <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;
                 <span class="phone-digits">+7 928 680 10 20</span> 
             </div>
-            <div>
-                <span class="phone-digits">+7 928 680 10 20</span> 
-            </div>
         </div>
     </div>
 </nav>
@@ -56,10 +53,7 @@
         <div class="phones-wrapper text-right">
             <div>
                 <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;
-                <span class="phone-digits">+7 928 680 10 20</span> 
-            </div>
-            <div>
-                <span class="phone-digits">+7 928 680 10 20</span> 
+                <span class="phone-digits">+7 (863) 296 02 60</span> 
             </div>
         </div>
     </div>
