@@ -1,6 +1,7 @@
 body {
 	font-family: Open Sans, sans-serif;
-	padding-top: 83px;
+	font-size: 18px;
+	padding-top: 81px;
 	background-color: #333333;
 }
 
@@ -15,6 +16,10 @@ a {
 
 .bold {
 	font-weight: bold;
+}
+
+.red {
+	color: #8B3330;
 }
 
 .container, 
@@ -89,8 +94,45 @@ a {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 700;
 	letter-spacing: 2px;
-	padding-bottom: 8px;
+	padding-bottom: 7px;
 }
+
+.about-house {
+	background-color: #fff;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.attention {
+	border: 1px solid #8B3330;
+	border-radius: 3px;
+	padding: 10px;
+	background-color: #F8F8F8;
+}
+
+.advantages {
+	background-color: #003333;
+	color: #fff;
+	padding-bottom: 20px;
+} 
+
+.advantages h2 {
+	font-size: 36px;
+	font-weight: 700;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	margin-top: 20px; 
+} 
+
+.advantages ul {
+	list-style-image: url("imgs/bullit-14x20.png");
+	padding-left: 25px;
+} 
+
+.advantages li {
+	margin-top: 20px;
+} 
 
 /*Начало. Переопределенные стили Bootstrap.*/
 .navbar-default {
@@ -173,10 +215,16 @@ a {
 /*Конец. Переопределенные стили Bootstrap.*/
 
 @media screen and (min-device-width: 320px) {
+	body {
+		padding-top: 51px;
+	}
 	.container, 
 	.container-fluid {
 		padding-right: 15px; 
 		padding-left: 15px;
+	}
+	.header {
+		margin-top: 12px;
 	}
 	.header .glyphicon-earphone {
 		font-size: 13px;
@@ -185,8 +233,24 @@ a {
 		font-size: 18px;
 	}
 	.logo-wrapper {
-		width: 112px;
-		height: 31px;
+		width: 90px;
+		height: 25px;
+	}
+	#carousel-example-generic h1 {
+		font-size: 18px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 5px;
+	}
+	.carousel-inner > .item > img {
+		height: 45vh;
+	}
+
+	#carousel-example-generic {
+		height: 45vh;
+	}
+	.advantages h2 {
+	    font-size: 24px;
 	}
 }
 
@@ -195,13 +259,25 @@ a {
 }
 
 @media screen and (min-device-width: 992px) {
+	.carousel-inner > .item > img {
+		height: 87vh;
+	}
+	#carousel-example-generic {
+		height: 87vh;
+	}
+	body {
+		padding-top: 81px;
+	}
 	.container, 
 	.container-fluid {
 		padding-right: 70px; 
 		padding-left: 70px;
 	}
+	.header {
+		margin-top: 10px;
+	}
 	.header .glyphicon-earphone {
-		font-size: 18px;
+		font-size: 20px;
 	}
 
 	.header .phone-digits {
@@ -215,11 +291,24 @@ a {
 		width: 220px;
 		height: 61px;
 	}
+	#carousel-example-generic h1 {
+		font-size: 36px;
+		padding-top: 0px;
+	}
+	.advantages h2 {
+	    font-size: 36px;
+	}
 }
 
 @media screen and (min-device-width: 1366px) {
+	.carousel-inner > .item > img {
+		height: 87vh;
+	}
+	#carousel-example-generic {
+		height: 87vh;
+	}
 	.header .glyphicon-earphone {
-		font-size: 18px;
+		font-size: 20px;
 	}
 	.header .phone-digits {
 		font-size: 28px;

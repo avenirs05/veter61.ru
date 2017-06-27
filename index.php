@@ -47,8 +47,7 @@
 
 <nav class="navbar navbar-default navbar-fixed-top visible-xs-block visible-sm-block">
     <div class="container-fluid header">
-        <div class="burger-menu">
-        </div>
+        <div class="burger-menu hidden-md hidden-lg"></div>
         <div class="logo-wrapper"></div>
         <div class="phones-wrapper text-right">
             <div>
@@ -90,18 +89,55 @@
     </a>
 </div>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla architecto nobis officia reprehenderit, vitae mollitia sit, deleniti impedit magnam! Pariatur consectetur voluptatum a fuga odit quam saepe mollitia, sed debitis!
+<div class="container-fluid about-house">
+    <div class="row">
+        <div class="col-md-12">
+            <p>Жилой дом «Ветер перемен» – это 8-этажный 42-квартирный дом клубного типа, расположенный на тихой улочке в Ленинском районе г. Ростова-на-Дону.</p>
+            <p>Концепция дома – уютный и тихий анклав для своих. Микрорайон «Новое поселение» - один из немногих, где отсутствует масштабная многоэтажная застройка.</p>
+            <p class="attention"><span class="red">Внимание!</span> Мы не предлагаем долевое участие. Дом построен и сдан в эксплуатацию. Вы получаете квартиры в готовом доме с зарегистрированным правом собственности!</p>
+            <p class="bold">Ищем порядочных и умных соседей!</p>
+            <p>Всего по 6 квартир на каждом этаже. Многие будущие жильцы, купившие здесь квартиры, знакомы друг с другом. Руководители  компаний застройщика и генподрядчика приняли решение оставить несколько квартир для себя. Безупречное качество строительства – один из главных аргументов при выборе квартиры в нашем жилом доме.</p>
+            <p>Наш дом не похож на другие. В нем есть то, чего нет у большинства ростовских многоэтажек, - душá. Уютный дворик создает ощущение домашней террасы, а при входе в подъезд тихо играет легкая классическая музыка.</p>
+            <p>Если вы хотите жить в престижном доме близко к центру, но устали от 20-этажных «муравейников», этот дом для вас. Почему мы так гордимся нашим проектом?</p>
+        </div>
+    </div>
+</div>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla architecto nobis officia reprehenderit, vitae mollitia sit, deleniti impedit magnam! Pariatur consectetur voluptatum a fuga odit quam saepe mollitia, sed debitis!
+<div class="container-fluid advantages">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-center">Преимущества нашего дома</h2>
+            <ul>
+                <li>прекрасное расположение в непосредственной близости к центру города на пересечении улиц Курганной и Городской</li>
+                <li>наличие необходимой инфраструктуры в пешей доступности: школа, детский сад – 5 минут пешком, остановка – 3 минуты пешком, зоопарк – 10 минут пешком</li>
+                <li>великолепные планировки квартир, многие из которых имеют по два балкона, выходящие на разные стороны</li>
+                <li>подземный паркинг на 17 машино-мест</li>
+                <li>закрытая территория с детской площадкой и зоной отдыха для взрослых</li>
+                <li>бесшумный лифт OTIS грузоподъемностью 1 000 кг, который опускается до «-1»  уровня</li>
+                <li>круглосуточный консьерж, видеонаблюдение</li>
+                <li>индивидуальное газовое отопление в каждой квартире: Вы сами определяете температуру в своем доме</li>
+                <li>пожизненная гарантия на кровлю</li>
+                <li>строительство дома окончено, рядом нет и не будет шумных строек длиной в несколько лет</li>
+                <li>детский развивающий клуб на первом этаже</li>
+            </ul>
+        </div>
+    </div>
+</div>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla architecto nobis officia reprehenderit, vitae mollitia sit, deleniti impedit magnam! Pariatur consectetur voluptatum a fuga odit quam saepe mollitia, sed debitis!
+<div class="container-fluid about-house">
+    <div class="row">
+        <div class="col-md-12">
+            <p>Квартиры продаются в состоянии «стройвариант». При желании предоставляются услуги дизайна интерьера и ремонта «под ключ».</p>
+            <p>В доме имеются 1- и 2-комнатные квартиры площадью от 35,1 кв.м до 71,1 кв.м. При этом возможно объединение квартир на выгодных условиях. Также в продаже нежилые помещения и машино-места в подземном паркинге. Количество квартир и машино-мест ограничено.</p>
+            <p>Запись на просмотр по телефону: 8(863) 296-02-60 (без выходных).</p>
+            <p class="attention"><span class="red">Внимание!</span> Дом построен в строгом соответствии с проектом, прошедшим экспертизу, и разрешением на строительство. Никаких «самозастроев» и «долевых» квартир!</p>
+            <p>Жилой дом «Ветер перемен»: взгляните по-новому на городскую жизнь!</p>
+            <p>Настало время для перемен к лучшему!</p>
+        </div>
+    </div>
+</div>
 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla architecto nobis officia reprehenderit, vitae mollitia sit, deleniti impedit magnam! Pariatur consectetur voluptatum a fuga odit quam saepe mollitia, sed debitis!
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla architecto nobis officia reprehenderit, vitae mollitia sit, deleniti impedit magnam! Pariatur consectetur voluptatum a fuga odit quam saepe mollitia, sed debitis!
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla architecto nobis officia reprehenderit, vitae mollitia sit, deleniti impedit magnam! Pariatur consectetur voluptatum a fuga odit quam saepe mollitia, sed debitis!
 <!-- <div class="main-screen"> -->
 <!--     <?php //require_once 'header.php'; ?> -->
 <!--     <h1>Дистанционная бухгалтерия по-мужски!</h1>
