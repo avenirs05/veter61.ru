@@ -83,7 +83,7 @@ a {
 	font-family: 'Open Sans Condensed', sans-serif;
 } 
 
-#carousel-example-generic h1 {
+#carousel-main-screen h1 {
 	position: absolute;
 	width: 100%;
 	background-color: #fff;
@@ -140,14 +140,109 @@ a {
 	border: none;
 }
 
-.carousel-inner > .item > img {
+#carousel-main-screen .carousel-inner > .item > img {
 	height: 87vh;
 	width: 100%;
 }
 
-#carousel-example-generic {
+#carousel-main-screen {
 	position: relative;
 	height: 87vh;
+}
+
+#carousel-gallery-mob .carousel-inner > .item {
+	height: 320px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+#carousel-gallery-mob .carousel-inner > #gal-pict-01 {
+	background-image: url("imgs/gallery-mob/gallery-mob-01.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-02 {
+	background-image: url("imgs/gallery-mob/gallery-mob-02.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-03 {
+	background-image: url("imgs/gallery-mob/gallery-mob-03.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-04 {
+	background-image: url("imgs/gallery-mob/gallery-mob-04.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-05 {
+	background-image: url("imgs/gallery-mob/gallery-mob-05.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-06 {
+	background-image: url("imgs/gallery-mob/gallery-mob-06.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-07 {
+	background-image: url("imgs/gallery-mob/gallery-mob-07.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-08 {
+	background-image: url("imgs/gallery-mob/gallery-mob-08.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-09 {
+	background-image: url("imgs/gallery-mob/gallery-mob-09.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-10 {
+	background-image: url("imgs/gallery-mob/gallery-mob-10.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-11 {
+	background-image: url("imgs/gallery-mob/gallery-mob-11.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-12 {
+	background-image: url("imgs/gallery-mob/gallery-mob-12.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-13 {
+	background-image: url("imgs/gallery-mob/gallery-mob-13.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-14 {
+	background-image: url("imgs/gallery-mob/gallery-mob-14.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-15 {
+	background-image: url("imgs/gallery-mob/gallery-mob-15.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-16 {
+	background-image: url("imgs/gallery-mob/gallery-mob-16.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-17 {
+	background-image: url("imgs/gallery-mob/gallery-mob-17.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-18 {
+	background-image: url("imgs/gallery-mob/gallery-mob-18.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-19 {
+	background-image: url("imgs/gallery-mob/gallery-mob-19.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-20 {
+	background-image: url("imgs/gallery-mob/gallery-mob-20.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-21 {
+	background-image: url("imgs/gallery-mob/gallery-mob-21.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-22 {
+	background-image: url("imgs/gallery-mob/gallery-mob-22.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-23 {
+	background-image: url("imgs/gallery-mob/gallery-mob-23.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-24 {
+	background-image: url("imgs/gallery-mob/gallery-mob-24.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-25 {
+	background-image: url("imgs/gallery-mob/gallery-mob-25.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-26 {
+	background-image: url("imgs/gallery-mob/gallery-mob-26.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-27 {
+	background-image: url("imgs/gallery-mob/gallery-mob-27.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-28 {
+	background-image: url("imgs/gallery-mob/gallery-mob-28.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-29 {
+	background-image: url("imgs/gallery-mob/gallery-mob-29.jpg");
 }
 
 .gallery {
@@ -163,17 +258,15 @@ a {
 	margin-bottom: 20px;
 }
 
-/*#lightgallery {
-	display: flex;
-	flex-wrap: wrap;
-	align-content: space-between;
-	justify-content: space-between;
-}*/
-
 #lightgallery img {
 	margin-bottom: 5px;
-/*	margin-right: 10px;
-	margin-left: 10px;*/
+}
+
+.gallery-mob {
+	padding-right: 0;
+	padding-left: 0;
+	width: 100%;
+	background-color: #f8f8f8;
 }
 
 
@@ -249,6 +342,17 @@ a {
 		padding-right: 15px; 
 		padding-left: 15px;
 	}
+	.gallery-mob {
+		padding-left: 0px; 
+		padding-right: 0px;
+	}
+	.gallery-mob h2 {
+		font-size: 24px;
+		font-weight: 700;
+		font-family: 'Open Sans Condensed';
+		letter-spacing: 2px;
+		margin-bottom: 20px;
+	}
 	.header {
 		margin-top: 12px;
 	}
@@ -262,17 +366,17 @@ a {
 		width: 90px;
 		height: 25px;
 	}
-	#carousel-example-generic h1 {
+	#carousel-main-screen h1 {
 		font-size: 18px;
 		padding-left: 15px;
 		padding-right: 15px;
 		padding-top: 5px;
 	}
-	.carousel-inner > .item > img {
+	#carousel-main-screen .carousel-inner > .item > img {
 		height: 45vh;
 	}
 
-	#carousel-example-generic {
+	#carousel-main-screen {
 		height: 45vh;
 	}
 	.advantages h2 {
@@ -281,14 +385,16 @@ a {
 }
 
 @media screen and (min-device-width: 768px) {
-
+	#carousel-gallery-mob .carousel-inner > .item {
+		height: 512px;
+	}
 }
 
 @media screen and (min-device-width: 992px) {
-	.carousel-inner > .item > img {
+	#carousel-main-screen .carousel-inner > .item > img {
 		height: 87vh;
 	}
-	#carousel-example-generic {
+	#carousel-main-screen {
 		height: 87vh;
 	}
 	body {
@@ -317,7 +423,7 @@ a {
 		width: 220px;
 		height: 61px;
 	}
-	#carousel-example-generic h1 {
+	#carousel-main-screen h1 {
 		font-size: 36px;
 		padding-top: 0px;
 	}
@@ -327,10 +433,10 @@ a {
 }
 
 @media screen and (min-device-width: 1366px) {
-	.carousel-inner > .item > img {
+	#carousel-main-screen .carousel-inner > .item > img {
 		height: 87vh;
 	}
-	#carousel-example-generic {
+	#carousel-main-screen {
 		height: 87vh;
 	}
 	.header .glyphicon-earphone {
