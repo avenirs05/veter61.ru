@@ -138,6 +138,65 @@ a {
 	color: #B8BABD;
 }
 
+.gallery {
+	background-color: #f8f8f8;
+	padding-bottom: 10px;
+}
+
+.gallery h2 {
+	font-size: 36px;
+	font-weight: 700;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+
+.gallery-mob {
+	padding-right: 0;
+	padding-left: 0;
+	width: 100%;
+	background-color: #f8f8f8;
+}
+
+.footer {
+	background-color: #fff;
+	position: relative;
+}
+
+.callback-contacts-wrap {
+	position: absolute;
+	z-index: 10;
+	margin-left: 70px;
+	top: 50%;
+
+}
+
+.footer button {
+	padding: 10px 15px;
+	font-size: 20px;
+	border-radius: 3px;
+	background-color: rgb(51, 153, 51);
+	color: rgb(255, 255, 255);
+	border: medium none;
+} 
+
+.footer button:hover {
+	background-color: #8B3330;
+} 
+
+.footer .contacts-wrapper {
+	background-color: #fff;
+	font-size: 18px;
+	font-family: Open Sans;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 1px solid #8B3B3F;
+	border-radius: 3px;
+	margin-top: 20px;
+} 
+
 /*Начало. Переопределенные стили Bootstrap.*/
 .navbar-default {
 	background-color: #333333;
@@ -248,40 +307,10 @@ a {
 #carousel-gallery-mob .carousel-inner > #gal-pict-29 {
 	background-image: url("imgs/gallery-mob-29.jpg");
 }
+/*Конец. Переопределенные стили Bootstrap.*/
 
-.gallery {
-	background-color: #f8f8f8;
-	padding-bottom: 10px;
-}
-
-.gallery h2 {
-	font-size: 36px;
-	font-weight: 700;
-	font-family: 'Open Sans Condensed', sans-serif;
-	letter-spacing: 2px;
-	margin-bottom: 20px;
-}
-
-#lightgallery img {
-	margin-bottom: 5px;
-}
-
-.gallery-mob {
-	padding-right: 0;
-	padding-left: 0;
-	width: 100%;
-	background-color: #f8f8f8;
-}
-
-.footer {
-	background-color: #fff;
-	position: relative;
-/*	padding-left: 70px;
-	padding-right: 70px;*/
-}
-
-
-/*.modal-title {
+/*Модальное окно Bootstrap*/
+.modal-title {
 	color: #000000;
 	padding-right: 15px;
 }
@@ -294,28 +323,20 @@ a {
 .modal-content {
 	background-color: #F1F1F1;
 }
+.modal-body {
+	padding-top: 0;
+	margin-top: -20px;
+}
 .modal-body input[type="text"] {
 	width: 287px;
 	height: 35px;
 	font-size: 18px;
 }
-#modal-free-consult-mob .modal-body input[type="text"] {
-	width: 100%;
-	height: 35px;
-}
-#modal-free-consult-mob .modal-body input[type="submit"] {
-	width: 100%;
-}
-#modal-free-consult-mob .modal-content {
-	width: 100%;
-}
-#modal-free-consult-mob .modal-dialog {
-	width: 300px;
-}
 
-.modal-body form > div {
+.modal-body form > div:nth-child(2) {
 	margin-top: 20px;
 }
+
 .modal-body > form > div > div {
 	color: #028090;
 	font-weight: bold;
@@ -328,9 +349,9 @@ a {
 	height: 60px;
 	border: medium none;
 	border-radius: 2px;
-	font-size: 28px;
+	font-size: 24px;
 	margin-bottom: 5px;
-	margin-top: 20px;
+	margin-top: 24px;
 	letter-spacing: 1px;
 }
 .modal-body input[type="submit"]:hover {
@@ -339,10 +360,26 @@ a {
 .modal-body button:hover {
 	background-color: #B03A32;
 }
-.modal-body > form div:first-child {
+/*.modal-body > form div:first-child {
 	margin-top: 5px;
 }*/
-/*Конец. Переопределенные стили Bootstrap.*/
+
+.modal-header {
+	border-bottom: none;
+	padding-right: 15px;
+	padding-top: 15px;
+}
+/*Модальное окно Bootstrap*/
+
+
+/*LightGallery*/
+#lightgallery img {
+	margin-bottom: 5px;
+}
+/*LightGallery*/
+
+
+
 
 @media screen and (min-device-width: 320px) {
 	body {
