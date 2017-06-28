@@ -134,6 +134,10 @@ a {
 	margin-top: 20px;
 } 
 
+.menu-wrapper a.change-color {
+	color: #B8BABD;
+}
+
 /*Начало. Переопределенные стили Bootstrap.*/
 .navbar-default {
 	background-color: #333333;
@@ -158,91 +162,91 @@ a {
 }
 
 #carousel-gallery-mob .carousel-inner > #gal-pict-01 {
-	background-image: url("imgs/gallery-mob/gallery-mob-01.jpg");
+	background-image: url("imgs/gallery-mob-01.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-02 {
-	background-image: url("imgs/gallery-mob/gallery-mob-02.jpg");
+	background-image: url("imgs/gallery-mob-02.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-03 {
-	background-image: url("imgs/gallery-mob/gallery-mob-03.jpg");
+	background-image: url("imgs/gallery-mob-03.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-04 {
-	background-image: url("imgs/gallery-mob/gallery-mob-04.jpg");
+	background-image: url("imgs/gallery-mob-04.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-05 {
-	background-image: url("imgs/gallery-mob/gallery-mob-05.jpg");
+	background-image: url("imgs/gallery-mob-05.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-06 {
-	background-image: url("imgs/gallery-mob/gallery-mob-06.jpg");
+	background-image: url("imgs/gallery-mob-06.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-07 {
-	background-image: url("imgs/gallery-mob/gallery-mob-07.jpg");
+	background-image: url("imgs/gallery-mob-07.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-08 {
-	background-image: url("imgs/gallery-mob/gallery-mob-08.jpg");
+	background-image: url("imgs/gallery-mob-08.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-09 {
-	background-image: url("imgs/gallery-mob/gallery-mob-09.jpg");
+	background-image: url("imgs/gallery-mob-09.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-10 {
-	background-image: url("imgs/gallery-mob/gallery-mob-10.jpg");
+	background-image: url("imgs/gallery-mob-10.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-11 {
-	background-image: url("imgs/gallery-mob/gallery-mob-11.jpg");
+	background-image: url("imgs/gallery-mob-11.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-12 {
-	background-image: url("imgs/gallery-mob/gallery-mob-12.jpg");
+	background-image: url("imgs/gallery-mob-12.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-13 {
-	background-image: url("imgs/gallery-mob/gallery-mob-13.jpg");
+	background-image: url("imgs/gallery-mob-13.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-14 {
-	background-image: url("imgs/gallery-mob/gallery-mob-14.jpg");
+	background-image: url("imgs/gallery-mob-14.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-15 {
-	background-image: url("imgs/gallery-mob/gallery-mob-15.jpg");
+	background-image: url("imgs/gallery-mob-15.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-16 {
-	background-image: url("imgs/gallery-mob/gallery-mob-16.jpg");
+	background-image: url("imgs/gallery-mob-16.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-17 {
-	background-image: url("imgs/gallery-mob/gallery-mob-17.jpg");
+	background-image: url("imgs/gallery-mob-17.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-18 {
-	background-image: url("imgs/gallery-mob/gallery-mob-18.jpg");
+	background-image: url("imgs/gallery-mob-18.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-19 {
-	background-image: url("imgs/gallery-mob/gallery-mob-19.jpg");
+	background-image: url("imgs/gallery-mob-19.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-20 {
-	background-image: url("imgs/gallery-mob/gallery-mob-20.jpg");
+	background-image: url("imgs/gallery-mob-20.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-21 {
-	background-image: url("imgs/gallery-mob/gallery-mob-21.jpg");
+	background-image: url("imgs/gallery-mob-21.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-22 {
-	background-image: url("imgs/gallery-mob/gallery-mob-22.jpg");
+	background-image: url("imgs/gallery-mob-22.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-23 {
-	background-image: url("imgs/gallery-mob/gallery-mob-23.jpg");
+	background-image: url("imgs/gallery-mob-23.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-24 {
-	background-image: url("imgs/gallery-mob/gallery-mob-24.jpg");
+	background-image: url("imgs/gallery-mob-24.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-25 {
-	background-image: url("imgs/gallery-mob/gallery-mob-25.jpg");
+	background-image: url("imgs/gallery-mob-25.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-26 {
-	background-image: url("imgs/gallery-mob/gallery-mob-26.jpg");
+	background-image: url("imgs/gallery-mob-26.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-27 {
-	background-image: url("imgs/gallery-mob/gallery-mob-27.jpg");
+	background-image: url("imgs/gallery-mob-27.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-28 {
-	background-image: url("imgs/gallery-mob/gallery-mob-28.jpg");
+	background-image: url("imgs/gallery-mob-28.jpg");
 }
 #carousel-gallery-mob .carousel-inner > #gal-pict-29 {
-	background-image: url("imgs/gallery-mob/gallery-mob-29.jpg");
+	background-image: url("imgs/gallery-mob-29.jpg");
 }
 
 .gallery {
@@ -267,6 +271,13 @@ a {
 	padding-left: 0;
 	width: 100%;
 	background-color: #f8f8f8;
+}
+
+.footer {
+	background-color: #fff;
+	position: relative;
+/*	padding-left: 70px;
+	padding-right: 70px;*/
 }
 
 

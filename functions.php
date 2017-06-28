@@ -1,5 +1,7 @@
 <?php
 
+
+
 function isGeneralOrSimpleTaxSystemCompany () {
     if ($_POST['tax-system'] == 'general') {
         return '<b>Система налогообложения:</b> общая<br><br>';

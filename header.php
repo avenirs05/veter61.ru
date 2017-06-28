@@ -1,17 +1,33 @@
-<div class="header">
-    <div class="row">
-        <div class="col-md-12">
-            <a href="index.php"><img src="imgs/logo.png" alt=""></a>
-            <div class="right-side">
-                <button id="btn-free-consult" class="hidden-xs hidden-sm">Бесплатная консультация</button>
-                <div class="cons-phone">
-                    <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;
-                    <span class="phone-digits">+7 499 685 12 89</span> 
-                </div>
-            </div> 
+<nav class="navbar navbar-default navbar-fixed-top visible-md-block visible-lg-block">
+    <div class="container-fluid header">
+        <div class="logo-wrapper"></div>
+        <div class="menu-wrapper">
+            <a href="index.php">Главная</a>
+            <a href="flats.php">Квартиры</a>
+            <a href="design.php">Дизайн и ремонт</a>
+            <a href="gallery.php">Фотогалерея</a>
+            <a href="contacts.php">Контакты</a>
+        </div>
+        <div class="phones-wrapper text-right">
+            <div>
+                <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;
+                <span class="phone-digits">+7 928 680 10 20</span> 
+            </div>
         </div>
     </div>
-</div>
+</nav>
 
+<nav class="navbar navbar-default navbar-fixed-top visible-xs-block visible-sm-block">
+    <div class="container-fluid header">
+        <div class="burger-menu hidden-md hidden-lg"></div>
+        <div class="logo-wrapper"></div>
+        <div class="phones-wrapper text-right">
+            <div>
+                <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;
+                <span class="phone-digits">+7 (863) 296 02 60</span> 
+            </div>
+        </div>
+    </div>
+</nav>
 
 
