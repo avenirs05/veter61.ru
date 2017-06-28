@@ -10,16 +10,27 @@
     
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="/imgs/fav.png" type="image/png">
+    <link type="text/css" rel="stylesheet" href="css/lightGallery.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">    
     <link href="style.css" rel="stylesheet">
 
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/lightgallery.min.js"></script>
+    <script src="js/lg-thumbnail.min.js"></script>
+    <!-- lightgallery plugins -->
+<!--     <script src="js/lg-thumbnail.min.js"></script>
+    <script src="js/lg-fullscreen.min.js"></script> -->
+
     <script>
         $(function () {
             $('.carousel').carousel();
+            $("#lightgallery").lightGallery( {
+                showThumbByDefault: true
+            });
         });
+
     </script>
 <!--     <script src="events-general.js"></script> -->
 
@@ -133,6 +144,103 @@
             <p class="attention"><span class="red">Внимание!</span> Дом построен в строгом соответствии с проектом, прошедшим экспертизу, и разрешением на строительство. Никаких «самозастроев» и «долевых» квартир!</p>
             <p>Жилой дом «Ветер перемен»: взгляните по-новому на городскую жизнь!</p>
             <p>Настало время для перемен к лучшему!</p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid gallery visible-md-block visible-lg-block">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h2 class="text-center">Галерея</h2>            
+            <div id="lightgallery">
+              <a href="imgs/gallery-01.jpg">
+                  <img src="imgs/gallery-thumb-01.jpg">
+              </a>
+              <a href="imgs/gallery-02.jpg">
+                  <img src="imgs/gallery-thumb-02.jpg">
+              </a>
+              <a href="imgs/gallery-03.jpg">
+                  <img src="imgs/gallery-thumb-03.jpg">
+              </a>
+              <a href="imgs/gallery-04.jpg">
+                  <img src="imgs/gallery-thumb-04.jpg">
+              </a>
+              <a href="imgs/gallery-05.jpg">
+                  <img src="imgs/gallery-thumb-05.jpg">
+              </a>
+              <a href="imgs/gallery-06.jpg">
+                  <img src="imgs/gallery-thumb-06.jpg">
+              </a>
+              <a href="imgs/gallery-07.jpg">
+                  <img src="imgs/gallery-thumb-07.jpg">
+              </a>
+              <a href="imgs/gallery-08.jpg">
+                  <img src="imgs/gallery-thumb-08.jpg">
+              </a>
+              <a href="imgs/gallery-09.jpg">
+                  <img src="imgs/gallery-thumb-09.jpg">
+              </a>
+              <a href="imgs/gallery-10.jpg">
+                  <img src="imgs/gallery-thumb-10.jpg">
+              </a>
+              <a href="imgs/gallery-11.jpg">
+                  <img src="imgs/gallery-thumb-11.jpg">
+              </a>
+              <a href="imgs/gallery-12.jpg">
+                  <img src="imgs/gallery-thumb-12.jpg">
+              </a>
+              <a href="imgs/gallery-13.jpg">
+                  <img src="imgs/gallery-thumb-13.jpg">
+              </a>
+              <a href="imgs/gallery-14.jpg">
+                  <img src="imgs/gallery-thumb-14.jpg">
+              </a>
+              <a href="imgs/gallery-15.jpg">
+                  <img src="imgs/gallery-thumb-15.jpg">
+              </a>
+              <a href="imgs/gallery-16.jpg">
+                  <img src="imgs/gallery-thumb-16.jpg">
+              </a>
+              <a href="imgs/gallery-17.jpg">
+                  <img src="imgs/gallery-thumb-17.jpg">
+              </a>
+              <a href="imgs/gallery-18.jpg">
+                  <img src="imgs/gallery-thumb-18.jpg">
+              </a>
+              <a href="imgs/gallery-19.jpg">
+                  <img src="imgs/gallery-thumb-19.jpg">
+              </a>
+              <a href="imgs/gallery-20.jpg">
+                  <img src="imgs/gallery-thumb-20.jpg">
+              </a>
+              <a href="imgs/gallery-21.jpg">
+                  <img src="imgs/gallery-thumb-21.jpg">
+              </a>
+              <a href="imgs/gallery-22.jpg">
+                  <img src="imgs/gallery-thumb-22.jpg">
+              </a>
+              <a href="imgs/gallery-23.jpg">
+                  <img src="imgs/gallery-thumb-23.jpg">
+              </a>
+              <a href="imgs/gallery-24.jpg">
+                  <img src="imgs/gallery-thumb-24.jpg">
+              </a>
+              <a href="imgs/gallery-25.jpg">
+                  <img src="imgs/gallery-thumb-25.jpg">
+              </a>
+              <a href="imgs/gallery-26.jpg">
+                  <img src="imgs/gallery-thumb-26.jpg">
+              </a>
+              <a href="imgs/gallery-27.jpg">
+                  <img src="imgs/gallery-thumb-27.jpg">
+              </a>
+              <a href="imgs/gallery-28.jpg">
+                  <img src="imgs/gallery-thumb-28.jpg">
+              </a>
+              <a href="imgs/gallery-29.jpg">
+                  <img src="imgs/gallery-thumb-29.jpg">
+              </a>
+            </div>
         </div>
     </div>
 </div>
