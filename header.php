@@ -1,6 +1,7 @@
 <nav class="navbar navbar-default navbar-fixed-top visible-md-block visible-lg-block">
     <div class="container-fluid header">
-        <div class="logo-wrapper"></div>
+        <a href="index.php" class="logo-wrapper"></a>
+        <!-- <a href="index"><div class="logo-wrapper"></div></a> -->
         <div class="menu-wrapper">
             <a href="index.php">Главная</a>
             <a href="flats.php">Квартиры</a>
@@ -20,7 +21,7 @@
 <nav class="navbar navbar-default navbar-fixed-top visible-xs-block visible-sm-block">
     <div class="container-fluid header">
         <div class="burger-menu hidden-md hidden-lg"></div>
-        <div class="logo-wrapper"></div>
+        <a href="index.php" class="logo-wrapper"></a>
         <div class="phones-wrapper text-right">
             <div>
                 <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;
@@ -29,5 +30,6 @@
         </div>
     </div>
 </nav>
+
 
 

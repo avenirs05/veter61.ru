@@ -2,7 +2,7 @@ body {
 	font-family: Open Sans, sans-serif;
 	font-size: 18px;
 	padding-top: 81px;
-	background-color: #333333;
+	/*background-color: #006600;*/
 }
 
 ul, li, span {
@@ -20,6 +20,10 @@ a {
 
 .red {
 	color: #8B3330;
+}
+
+.border {
+	border: 1px solid red;
 }
 
 .container, 
@@ -40,8 +44,8 @@ a {
 	background-image: url("imgs/logo.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 220px;
-	height: 61px;
+	width: 148px;
+	height: 41px;
 	margin-right: auto;
 }
 
@@ -197,9 +201,16 @@ a {
 	margin-top: 20px;
 } 
 
+.thank-you {
+	font-family: Open Sans;
+	font-size: 24px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
 /*Начало. Переопределенные стили Bootstrap.*/
 .navbar-default {
-	background-color: #333333;
+	background-color: #006600;
 	border: none;
 }
 
@@ -328,7 +339,7 @@ a {
 	margin-top: -20px;
 }
 .modal-body input[type="text"] {
-	width: 287px;
+	width: 100%;
 	height: 35px;
 	font-size: 18px;
 }
@@ -378,9 +389,6 @@ a {
 }
 /*LightGallery*/
 
-
-
-
 @media screen and (min-device-width: 320px) {
 	body {
 		padding-top: 51px;
@@ -406,6 +414,7 @@ a {
 	}
 	.header .glyphicon-earphone {
 		font-size: 13px;
+		margin-right: -5px;
 	}
 	.header .phone-digits {
 		font-size: 18px;
@@ -413,6 +422,7 @@ a {
 	.logo-wrapper {
 		width: 90px;
 		height: 25px;
+		display: block;
 	}
 	#carousel-main-screen h1 {
 		font-size: 18px;
@@ -430,6 +440,14 @@ a {
 	.advantages h2 {
 	    font-size: 24px;
 	}
+	#modal-free-consult .modal-dialog {
+		width: 310px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.callback-contacts-wrap {
+		margin-left: 50px;
+	}
 }
 
 @media screen and (min-device-width: 768px) {
@@ -446,7 +464,7 @@ a {
 		height: 87vh;
 	}
 	body {
-		padding-top: 81px;
+		padding-top: 61px;
 	}
 	.container, 
 	.container-fluid {
@@ -468,8 +486,8 @@ a {
 		margin-right: 10px;
 	}
 	.logo-wrapper {
-		width: 220px;
-		height: 61px;
+		width: 148px;
+		height: 41px;
 	}
 	#carousel-main-screen h1 {
 		font-size: 36px;
@@ -477,6 +495,9 @@ a {
 	}
 	.advantages h2 {
 	    font-size: 36px;
+	}
+	.callback-contacts-wrap {
+		margin-left: 70px;
 	}
 }
 
@@ -514,12 +535,7 @@ a {
 }
 
 @media screen and (min-device-width: 1920px) {
-/*	.container, 
-	.container-fluid {
-		padding-right: 70px; 
-		padding-left: 70px;
-	}
-*/
+
 }
 
 
