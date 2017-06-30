@@ -9,7 +9,7 @@
 	
     <title><?php echo $title; ?> </title>
     
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+<!--     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link rel="shortcut icon" href="/imgs/fav.png" type="image/png">
     <link type="text/css" rel="stylesheet" href="css/lightgallery.css">
@@ -27,7 +27,8 @@
             $('#carousel-gallery-mob').carousel();
             $("#lightgallery").lightGallery( { showThumbByDefault: true });
             $('.btn-callback').click(function() { $('#modal-free-consult').modal('show'); });
-
+            $('.burger-menu').click(function() { $('#modal-menu').modal('show'); });
+            
             // Выделение цветом нужной страницы
             var location = window.location.href;  
             $('.menu-wrapper a').each(function () {  
@@ -40,6 +41,24 @@
 
         });
     </script>
+    <style>
+        body{
+          padding-right: 0 !important;     
+        }
+        @font-face {
+            font-family: "OpenSansCondensedLight";
+            src: url("fonts/OpenSans-CondLight.ttf") format("truetype");
+            font-style: normal;
+            font-weight: normal;  
+        }
+/*        @font-face {
+            font-family: 'Open Sans Condensed', sans-serif;
+            src: url("fonts/OpenSansCondensed-Bold.ttf") format("truetype");
+            font-style: normal;
+            font-weight: normal;  
+        }*/
+    </style>
+
 </head>
 <body>
 

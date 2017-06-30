@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <meta name="format-detection" content="telephone=no">
-  
-    <title>Дизайн и ремонт</title>
+	
+    <title>Квартиры</title>
     
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link rel="shortcut icon" href="/imgs/fav.png" type="image/png">
     <link type="text/css" rel="stylesheet" href="css/lightGallery.css">
@@ -41,7 +41,12 @@
 
         });
     </script>
+
     <style>
+        body {
+          padding-right: 0 !important;
+          background-color: #f8f8f8;
+        }
         @font-face {
             font-family: "OpenSansCondensedLight";
             src: url("fonts/OpenSans-CondLight.ttf") format("truetype");
@@ -54,5 +59,13 @@
 <body>
 <?php require_once 'modals.php'; ?>
 <?php require_once 'header.php'; ?>
+
+<div class="container-fluid flats">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">Планировки</h1>
+        </div>
+    </div>
+</div>
 
 <?php require_once 'footer.php'; ?>

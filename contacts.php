@@ -21,24 +21,52 @@
     <script src="js/lightgallery.min.js"></script>
     <script src="js/lg-thumbnail.min.js"></script>
 
-    <script>
+    <script>    
         $(function () {
-            // $('#carousel-main-screen').carousel();
-            // $('#carousel-gallery-mob').carousel();
-            // $("#lightgallery").lightGallery({
-            //     showThumbByDefault: true
-            // });
+            $('#carousel-main-screen').carousel();
+            $('#carousel-gallery-mob').carousel();
+            $("#lightgallery").lightGallery( { showThumbByDefault: true });
+            $('.btn-callback').click(function() { $('#modal-free-consult').modal('show'); });
+            $('.burger-menu').click(function() { $('#modal-menu').modal('show'); });
+            
+            // Выделение цветом нужной страницы
+            var location = window.location.href;  
+            $('.menu-wrapper a').each(function () {  
+                var link = $(this).attr('href');
+                if (location == link) { 
+                    $(this).addClass('change-color');                
+                }
+            }); 
+            // Конец. Выделение цветом нужной страницы 
+
         });
     </script>
+
     <style>
         body {
           background-color: #fff;
         }
+        @font-face {
+            font-family: "OpenSansCondensedLight";
+            src: url("fonts/OpenSans-CondLight.ttf") format("truetype");
+            font-style: normal;
+            font-weight: normal;  
+        }
     </style>
+
 </head>
 
 <body>
-
+<?php require_once 'modals.php'; ?>
 <?php require_once 'header.php'; ?>
+
+<div class="contacts-page">
+    <h1>Контакты</h1>
+    <div class="contacts-wrapper">
+        <p><span class="red">Тел.: </span>+7 (863) 296 02 60</p>
+        <p><span class="red">E-mail: </span>info@veter61.ru</p>
+        <p><span class="red">Адрес: </span>Курганная, дом 44/1</p>
+    </div>
+</div>
 
 <?php require_once 'footer.php'; ?>

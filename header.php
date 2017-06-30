@@ -1,7 +1,6 @@
 <nav class="navbar navbar-default navbar-fixed-top visible-md-block visible-lg-block">
     <div class="container-fluid header">
         <a href="index.php" class="logo-wrapper"></a>
-        <!-- <a href="index"><div class="logo-wrapper"></div></a> -->
         <div class="menu-wrapper">
             <a href="index.php">Главная</a>
             <a href="flats.php">Квартиры</a>
@@ -12,7 +11,7 @@
         <div class="phones-wrapper text-right">
             <div>
                 <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;
-                <span class="phone-digits">+7 928 680 10 20</span> 
+                <span class="phone-digits">+7 (863) 296 02 60</span> 
             </div>
         </div>
     </div>
