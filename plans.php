@@ -51,7 +51,14 @@
             })
             $('#flat-blue').mouseleave(function() {
                 $(this).css('background-image', 'url("imgs/flat-plan-cut-blue.jpg")');
-            })            
+            })    
+
+            $('#flat-green').mouseover(function() {
+                $(this).css('background-image', 'url("imgs/flat-plan-cut-green-hover.jpg")');
+            })
+            $('#flat-green').mouseleave(function() {
+                $(this).css('background-image', 'url("imgs/flat-plan-cut-green.jpg")');
+            })        
 
         });
     </script>
