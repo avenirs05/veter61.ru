@@ -60,6 +60,42 @@
                 $(this).css('background-image', 'url("imgs/flat-plan-cut-green.jpg")');
             })        
 
+            $('#flat-violet').mouseover(function() {
+                $(this).css('background-image', 'url("imgs/flat-plan-cut-violet-hover.jpg")');
+            })
+            $('#flat-violet').mouseleave(function() {
+                $(this).css('background-image', 'url("imgs/flat-plan-cut-violet.jpg")');
+            }) 
+
+            $('#flat-yellow').mouseover(function() {
+                $(this).css('background-image', 'url("imgs/flat-plan-cut-yellow-hover.jpg")');
+            })
+            $('#flat-yellow').mouseleave(function() {
+                $(this).css('background-image', 'url("imgs/flat-plan-cut-yellow.jpg")');
+            }) 
+
+            $('#flat-turq').mouseover(function() {
+                $(this).css('background-image', 'url("imgs/flat-plan-cut-turq-hover.jpg")');
+                $('#flat-turq2').css('background-image', 'url("imgs/flat-plan-cut-turq2-hover.jpg")');
+                $('#flat-yellow').css('background-image', 'url("imgs/flat-plan-cut-yellow-fake.jpg")');
+            })
+            $('#flat-turq').mouseleave(function() {
+                $(this).css('background-image', 'url("imgs/flat-plan-cut-turq.jpg")');
+                $('#flat-turq2').css('background-image', 'url("imgs/flat-plan-cut-turq2.jpg")');
+                $('#flat-yellow').css('background-image', 'url("imgs/flat-plan-cut-yellow.jpg")');
+            }) 
+
+            $('#flat-turq2').mouseover(function() {
+                $(this).css('background-image', 'url("imgs/flat-plan-cut-turq2-hover.jpg")');
+                $('#flat-turq').css('background-image', 'url("imgs/flat-plan-cut-turq-hover.jpg")');
+                $('#flat-yellow').css('background-image', 'url("imgs/flat-plan-cut-yellow-fake.jpg")');
+            })
+            $('#flat-turq2').mouseleave(function() {
+                $(this).css('background-image', 'url("imgs/flat-plan-cut-turq2.jpg")');
+                $('#flat-turq').css('background-image', 'url("imgs/flat-plan-cut-turq.jpg")');
+                $('#flat-yellow').css('background-image', 'url("imgs/flat-plan-cut-yellow.jpg")');
+            }) 
+
         });
     </script>
 
