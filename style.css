@@ -276,8 +276,8 @@ a {
 	/*font-family: 'Open Sans Condensed', sans-serif;*/
 	font-family: 'OpenSansCondensedLight', sans-serif;
 	letter-spacing: 2px;
-	margin-bottom: 20px;
-	/*margin-top: 40px; */
+	margin-bottom: 30px;
+	margin-top: 30px; 
 
 }
 
@@ -307,8 +307,8 @@ a {
 	display: inline-block;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top top;
-	background-image: url("imgs/flat-plan-cut-orange.jpg");
+/*	background-position: top top;*/
+/*	background-image: url("imgs/flat-plan-cut-orange.jpg");*/
 }
 
 #flat-orange {
@@ -333,6 +333,36 @@ a {
 	background-image: url("imgs/flat-plan-cut-turq.jpg");
 	width: 298px;
 	height: 321px;
+}
+
+
+#flat-green {
+	background-image: url("imgs/flat-plan-cut-green.jpg");
+	width: 298px;
+	height: 322px;
+}
+
+#flat-violet {
+	background-image: url("imgs/flat-plan-cut-violet.jpg");
+	width: 223px;
+	height: 322px;
+}
+
+#flat-yellow {
+	background-image: url("imgs/flat-plan-cut-yellow.jpg");
+	width: 345px;
+	height: 322px;
+}
+
+#flat-turq2 {
+	background-image: url("imgs/flat-plan-cut-turq2.jpg");
+	width: 124px;
+	height: 322px;
+}
+
+#second-row-wrap {
+	margin-top: -6px;
+	margin-bottom: 30px;	
 }
 
 /*Начало. Переопределенные стили Bootstrap.*/

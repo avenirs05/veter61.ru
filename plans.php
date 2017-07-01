@@ -39,6 +39,20 @@
             }); 
             // Конец. Выделение цветом нужной страницы 
 
+            $('#flat-orange').mouseover(function() {
+                $(this).css('background-image', 'url("imgs/flat-plan-cut-orange-hover.jpg")');
+            })
+            $('#flat-orange').mouseleave(function() {
+                $(this).css('background-image', 'url("imgs/flat-plan-cut-orange.jpg")');
+            })
+
+            $('#flat-blue').mouseover(function() {
+                $(this).css('background-image', 'url("imgs/flat-plan-cut-blue-hover.jpg")');
+            })
+            $('#flat-blue').mouseleave(function() {
+                $(this).css('background-image', 'url("imgs/flat-plan-cut-blue.jpg")');
+            })            
+
         });
     </script>
 
@@ -61,8 +75,11 @@
 
 <div class="plans visible-md-block visible-lg-block">
             <h1 class="text-center">Планировки</h1>
-            <div class="plan-cut-wrap text-center">
-                <div id="flat-orange" class="flat-plan-cut"></div><div id="flat-blue" class="flat-plan-cut"></div><div id="hall" class="flat-plan-cut"></div><div id="flat-turq" class="flat-plan-cut"></div>
+            <div class="text-center">
+                <a href="#" id="flat-orange" class="flat-plan-cut"></a><a href="#" id="flat-blue" class="flat-plan-cut"></a><div href="#" id="hall" class="flat-plan-cut"></div><a href="#" id="flat-turq" class="flat-plan-cut"></a>
+            </div>
+            <div id="second-row-wrap" class="text-center">
+                <a  href="#" id="flat-green" class="flat-plan-cut"></a><a href="#" id="flat-violet" class="flat-plan-cut"></a><a href="#" id="flat-yellow" class="flat-plan-cut"></a><a href="#" id="flat-turq2" class="flat-plan-cut"></a>
             </div>
 </div>
 
