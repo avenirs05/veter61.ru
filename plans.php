@@ -45,7 +45,7 @@
     <style>
         body {
           padding-right: 0 !important;
-          background-color: #f8f8f8;
+          background-color: #fff;
         }
         @font-face {
             font-family: "OpenSansCondensedLight";
@@ -58,14 +58,14 @@
 
 <body>
 <?php require_once 'modals.php'; ?>
-<?php require_once 'header.php'; ?>
 
-<div class="container-fluid flats">
-    <div class="row">
-        <div class="col-md-12">
+<div class="plans visible-md-block visible-lg-block">
             <h1 class="text-center">Планировки</h1>
-        </div>
-    </div>
+            <div class="plan-cut-wrap text-center">
+                <div id="flat-orange" class="flat-plan-cut"></div><div id="flat-blue" class="flat-plan-cut"></div><div id="hall" class="flat-plan-cut"></div><div id="flat-turq" class="flat-plan-cut"></div>
+            </div>
 </div>
+
+<?php require_once 'header.php'; ?>
 
 <?php require_once 'footer.php'; ?>

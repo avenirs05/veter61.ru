@@ -269,7 +269,8 @@ a {
 	text-decoration: none;
 }
 
-.flats h1 {
+.flats h1,
+.plans h1 {
 	font-size: 36px;
 	font-weight: 700;
 	/*font-family: 'Open Sans Condensed', sans-serif;*/
@@ -277,8 +278,19 @@ a {
 	letter-spacing: 2px;
 	margin-bottom: 20px;
 	/*margin-top: 40px; */
+
 }
 
+.flats a {
+	/*position: relative;*/
+	display: block;
+}
+
+/*.txt-floor {
+	position: absolute;
+	display: none;
+}
+*/
 .img-cut-wrap {
 	margin-bottom: 30px;
 }
@@ -289,6 +301,38 @@ a {
 
 .roof {
 	margin-left: -9px;
+}
+
+.flat-plan-cut {
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top top;
+	background-image: url("imgs/flat-plan-cut-orange.jpg");
+}
+
+#flat-orange {
+	background-image: url("imgs/flat-plan-cut-orange.jpg");
+	width: 298px;
+	height: 321px;
+}
+
+#flat-blue {
+	background-image: url("imgs/flat-plan-cut-blue.jpg");
+	width: 234px;
+	height: 321px;
+}
+
+#hall {
+	background-image: url("imgs/flat-plan-cut-hall.jpg");
+	width: 160px;
+	height: 321px;
+}
+
+#flat-turq {
+	background-image: url("imgs/flat-plan-cut-turq.jpg");
+	width: 298px;
+	height: 321px;
 }
 
 /*Начало. Переопределенные стили Bootstrap.*/

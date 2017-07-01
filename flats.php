@@ -29,6 +29,11 @@
             $('.btn-callback').click(function() { $('#modal-free-consult').modal('show'); });
             $('.burger-menu').click(function() { $('#modal-menu').modal('show'); });
             $('[data-toggle="tooltip"]').tooltip();
+            // $('.img-cut-wrap a').focus(function() {
+            //     // $('.txt-floor').show();
+            // }) 
+
+            
             
             // Выделение цветом нужной страницы
             var location = window.location.href;  
@@ -46,7 +51,7 @@
     <style>
         body {
           padding-right: 0 !important;
-          background-color: #f8f8f8;
+          background-color: #fff;
         }
         @font-face {
             font-family: "OpenSansCondensedLight";
@@ -61,7 +66,7 @@
 <?php require_once 'modals.php'; ?>
 <?php require_once 'header.php'; ?>
 
-<div class="container-fluid flats visible-md-block visible-lg-block">
+<div class="flats visible-md-block visible-lg-block">
     <div class="row">
         <div class="col-md-12">
             <h1 class="text-center">Выберите этаж</h1>
