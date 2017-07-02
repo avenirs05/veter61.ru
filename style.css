@@ -269,7 +269,16 @@ a {
 	text-decoration: none;
 }
 
-.flats h1,
+.flats h1 {
+	font-size: 36px;
+	font-weight: 700;
+	/*font-family: 'Open Sans Condensed', sans-serif;*/
+	font-family: 'OpenSansCondensedLight', sans-serif;
+	letter-spacing: 2px;
+/*	margin-bottom: 30px;*/
+/*	margin-top: 30px;*/ 
+}
+
 .plans h1 {
 	font-size: 36px;
 	font-weight: 700;
@@ -278,7 +287,6 @@ a {
 	letter-spacing: 2px;
 	margin-bottom: 30px;
 	margin-top: 30px; 
-
 }
 
 .flats a {
@@ -300,7 +308,8 @@ a {
 }
 
 .roof {
-	margin-left: -9px;
+	margin-left: -4px;
+	margin-bottom: -3px;
 }
 
 .flat-plan-cut {

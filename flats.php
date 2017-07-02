@@ -66,39 +66,36 @@
 <?php require_once 'modals.php'; ?>
 <?php require_once 'header.php'; ?>
 
-<div class="flats visible-md-block visible-lg-block">
+<div class="container-fluid flats visible-md-block visible-lg-block">
     <div class="row">
         <div class="col-md-12">
             <h1 class="text-center">Выберите этаж</h1>
             <div class="img-cut-wrap text-center">
                 <div class="roof">
-                    <img src="imgs/house-cut-09.png" width="989" alt="">
+                    <img src="imgs/house-cut-09.png" width="500" alt="">
                 </div>
-                <a href="plans.php">
-                    <img src="imgs/house-cut-08.png" width="980" alt="">
+                <a href="plans.php?floor=8">
+                    <img src="imgs/house-cut-08.png" width="490" alt="">
                 </a>
-                <a href="plans.php" data-toggle="tooltip" data-placement="top" title="8-й этаж. Нажмите для просмотра плана">
-                    <img src="imgs/house-cut-07.png" width="980" alt="" class="floor">
+                <a href="plans.php?floor=8" data-toggle="tooltip" data-placement="top" title="8-й этаж. Нажмите для просмотра плана">
+                    <img src="imgs/house-cut-07.png" width="490" alt="" class="floor">
                 </a>
-                <a href="plans.php" data-toggle="tooltip" data-placement="top" title="7-й этаж. Нажмите для просмотра плана">
-                    <img src="imgs/house-cut-06.png" width="980" alt="" class="floor">
+                <a href="plans.php?floor=7" data-toggle="tooltip" data-placement="top" title="7-й этаж. Нажмите для просмотра плана">
+                    <img src="imgs/house-cut-06.png" width="490" alt="" class="floor">
                 </a>
-                <a href="plans.php" data-toggle="tooltip" data-placement="top" title="6-й этаж. Нажмите для просмотра плана">
-                    <img src="imgs/house-cut-05.png" width="980" alt="" class="floor">
+                <a href="plans.php?floor=6" data-toggle="tooltip" data-placement="top" title="6-й этаж. Нажмите для просмотра плана">
+                    <img src="imgs/house-cut-05.png" width="490" alt="" class="floor">
                 </a>
-                <a href="plans.php" data-toggle="tooltip" data-placement="top" title="5-й этаж. Нажмите для просмотра плана">
-                    <img src="imgs/house-cut-04.png" width="980" alt="" class="floor">
+                <a href="plans.php?floor=5" data-toggle="tooltip" data-placement="top" title="5-й этаж. Нажмите для просмотра плана">
+                    <img src="imgs/house-cut-04.png" width="490" alt="" class="floor">
                 </a>
-                <a href="plans.php" data-toggle="tooltip" data-placement="top" title="4-й этаж. Нажмите для просмотра плана">
-                    <img src="imgs/house-cut-03.png" width="980" alt="" class="floor">
+                <a href="plans.php?floor=4" data-toggle="tooltip" data-placement="top" title="4-й этаж. Нажмите для просмотра плана">
+                    <img src="imgs/house-cut-03.png" width="490" alt="" class="floor">
                 </a>
-                <a href="plans.php" data-toggle="tooltip" data-placement="top" title="3-й этаж. Нажмите для просмотра плана">
-                    <img src="imgs/house-cut-02.png" width="980" alt="" class="floor">
+                <a href="plans.php?floor=3" data-toggle="tooltip" data-placement="top" title="3-й этаж. Нажмите для просмотра плана">
+                    <img src="imgs/house-cut-02.png" width="490" alt="" class="floor">
                 </a>
-                <a href="plans.php" data-toggle="tooltip" data-placement="top" title="2-й этаж. Нажмите для просмотра плана">                    
-                    <img src="imgs/house-cut-01.png" width="980" alt="" class="floor">                    
-                </a>
-                <img src="imgs/house-cut-00.png" width="980" alt="">
+                <a href="plans.php?floor=2" data-toggle="tooltip" data-placement="top" title="2-й этаж. Нажмите для просмотра плана"><img src="imgs/house-cut-01.png" width="490" alt="" class="floor"></a><img src="imgs/house-cut-00.png" width="490" alt="">
             </div>
         </div>
     </div>

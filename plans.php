@@ -117,7 +117,30 @@
 <?php require_once 'modals.php'; ?>
 
 <div class="plans visible-md-block visible-lg-block">
-            <h1 class="text-center">Планировки</h1>
+            <?php 
+                if ($_GET['floor'] == 8) {
+                    echo '<h1 class="text-center">Планировки 8 этажа</h1>';
+                } 
+                if ($_GET['floor'] == 7) {
+                    echo '<h1 class="text-center">Планировки 7 этажа</h1>';
+                } 
+                if ($_GET['floor'] == 6) {
+                    echo '<h1 class="text-center">Планировки 6 этажа</h1>';
+                } 
+                if ($_GET['floor'] == 5) {
+                    echo '<h1 class="text-center">Планировки 5 этажа</h1>';
+                } 
+                if ($_GET['floor'] == 4) {
+                    echo '<h1 class="text-center">Планировки 4 этажа</h1>';
+                } 
+                if ($_GET['floor'] == 3) {
+                    echo '<h1 class="text-center">Планировки 3 этажа</h1>';
+                } 
+                if ($_GET['floor'] == 2) {
+                    echo '<h1 class="text-center">Планировки 2 этажа</h1>';
+                } 
+            ?>
+            
             <div class="text-center">
                 <a href="#" id="flat-orange" class="flat-plan-cut"></a><a href="#" id="flat-blue" class="flat-plan-cut"></a><div href="#" id="hall" class="flat-plan-cut"></div><a href="#" id="flat-turq" class="flat-plan-cut"></a>
             </div>
