@@ -26,6 +26,7 @@
             $('#carousel-main-screen').carousel();
             $('#carousel-gallery-mob').carousel();
             $("#lightgallery").lightGallery( { showThumbByDefault: true });
+
             $('.btn-callback').click(function() { $('#modal-free-consult').modal('show'); });
             $('.burger-menu').click(function() { $('#modal-menu').modal('show'); });
             

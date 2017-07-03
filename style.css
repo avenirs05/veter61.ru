@@ -548,25 +548,48 @@ a {
 	padding-top: 15px;
 }
 
-#modal-flat-blue .modal-content {
-	background-color: #FFF;
+#modal-flat-blue .modal-title,
+#modal-flat-violet .modal-title,
+#modal-flat-green .modal-title,
+#modal-flat-orange .modal-title,
+#modal-flat-turq .modal-title,
+#modal-flat-yellow .modal-title {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
-#modal-flat-blue .modal-dialog  {
-	width: 75%;
+#modal-flat-blue .modal-content,
+#modal-flat-violet .modal-content,
+#modal-flat-green .modal-content,
+#modal-flat-orange .modal-content,
+#modal-flat-turq .modal-content,
+#modal-flat-yellow .modal-content {
+	background-color: #fff;
+}
+
+#modal-flat-blue .modal-dialog,
+#modal-flat-violet .modal-dialog,
+#modal-flat-green .modal-dialog,
+#modal-flat-orange .modal-dialog,
+#modal-flat-turq .modal-dialog,
+#modal-flat-yellow .modal-dialog {
+	width: 85%;
 }
 
 .plan-3d-wrap {
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-/*.first-img {
-	float: left;
+.left-flat-3d {
+	margin-right: 20px;
+	margin-bottom: 25px;
 }
 
-.sec-img {
-	float: right;
-}*/
+.right-flat-plan {
+	margin-left: 20px;
+	margin-bottom: 25px;
+}
 /*Модальное окно Bootstrap*/
 
 

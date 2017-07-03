@@ -33,7 +33,12 @@
             $('#flat-blue').click(function() { 
                 $('#modal-flat-blue').modal('show'); 
             });
-            
+            $('#flat-violet').click(function() { 
+                $('#modal-flat-violet').modal('show'); 
+            });
+            $('#flat-green').click(function() { 
+                $('#modal-flat-green').modal('show'); 
+            });
             // PopUp квартра 3d и план
             
 
