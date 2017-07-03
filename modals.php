@@ -32,6 +32,23 @@
     </div>
 </div>
 
+<div class="modal fade" id="modal-flat-blue" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title text-center" id="myModalLabel">1-к квартира. Площадь 35,1 кв.м. Цена: от <span style="text-decoration: line-through;">2 200 000 руб.</span><span class="real-red"> Звоните!</span></h4>
+            </div>
+            <div class="modal-body">
+                <div class="plan-3d-wrap text-center">
+                    <img class="first-img" src="imgs/flat-3d-02.jpg" height="380" alt="">
+                    <img class="sec-img" src="imgs/flat-plan-02.jpg" height="380" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 

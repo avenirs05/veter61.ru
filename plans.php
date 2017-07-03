@@ -9,7 +9,6 @@
 	
     <title>Квартиры</title>
     
-    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link rel="shortcut icon" href="/imgs/fav.png" type="image/png">
     <link type="text/css" rel="stylesheet" href="css/lightGallery.css">
@@ -18,16 +17,26 @@
 
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/lightgallery.min.js"></script>
-    <script src="js/lg-thumbnail.min.js"></script>
 
     <script>    
         $(function () {
-            $('#carousel-main-screen').carousel();
-            $('#carousel-gallery-mob').carousel();
-            $("#lightgallery").lightGallery( { showThumbByDefault: true });
-            $('.btn-callback').click(function() { $('#modal-free-consult').modal('show'); });
-            $('.burger-menu').click(function() { $('#modal-menu').modal('show'); });
+
+            $('.btn-callback').click(function() { 
+                $('#modal-free-consult').modal('show'); 
+            });
+
+            $('.burger-menu').click(function() { 
+                $('#modal-menu').modal('show'); 
+            });
+
+            // PopUp квартра 3d и план
+            $('#flat-blue').click(function() { 
+                $('#modal-flat-blue').modal('show'); 
+            });
+            
+            // PopUp квартра 3d и план
+            
+
             
             // Выделение цветом нужной страницы
             var location = window.location.href;  
@@ -37,8 +46,10 @@
                     $(this).addClass('change-color');                
                 }
             }); 
-            // Конец. Выделение цветом нужной страницы 
+            // Выделение цветом нужной страницы 
 
+
+            // Подсветка нужного плана квартиры при наведении на нее
             $('#flat-orange').mouseover(function() {
                 $(this).css('background-image', 'url("imgs/flat-plan-cut-orange-hover.jpg")');
             })
@@ -95,6 +106,7 @@
                 $('#flat-turq').css('background-image', 'url("imgs/flat-plan-cut-turq.jpg")');
                 $('#flat-yellow').css('background-image', 'url("imgs/flat-plan-cut-yellow.jpg")');
             }) 
+            // Подсветка нужного плана квартиры при наведении на нее
 
         });
     </script>
@@ -115,7 +127,6 @@
 
 <body>
 <?php require_once 'modals.php'; ?>
-
 <div class="plans visible-md-block visible-lg-block">
             <?php 
                 if ($_GET['floor'] == 8) {

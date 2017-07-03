@@ -9,7 +9,6 @@
     
     <title>Коктакты</title>
     
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link rel="shortcut icon" href="/imgs/fav.png" type="image/png">
     <link type="text/css" rel="stylesheet" href="css/lightGallery.css">
@@ -18,14 +17,9 @@
 
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/lightgallery.min.js"></script>
-    <script src="js/lg-thumbnail.min.js"></script>
 
     <script>    
         $(function () {
-            $('#carousel-main-screen').carousel();
-            $('#carousel-gallery-mob').carousel();
-            $("#lightgallery").lightGallery( { showThumbByDefault: true });
             $('.btn-callback').click(function() { $('#modal-free-consult').modal('show'); });
             $('.burger-menu').click(function() { $('#modal-menu').modal('show'); });
             

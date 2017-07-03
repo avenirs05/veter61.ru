@@ -9,7 +9,6 @@
 	
     <title>Квартиры</title>
     
-    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link rel="shortcut icon" href="/imgs/fav.png" type="image/png">
     <link type="text/css" rel="stylesheet" href="css/lightGallery.css">
@@ -18,22 +17,21 @@
 
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/lightgallery.min.js"></script>
-    <script src="js/lg-thumbnail.min.js"></script>
 
     <script>    
         $(function () {
-            // $('#carousel-main-screen').carousel();
-            // $('#carousel-gallery-mob').carousel();
-            $("#lightgallery").lightGallery( { showThumbByDefault: true });
-            $('.btn-callback').click(function() { $('#modal-free-consult').modal('show'); });
-            $('.burger-menu').click(function() { $('#modal-menu').modal('show'); });
-            $('[data-toggle="tooltip"]').tooltip();
-            // $('.img-cut-wrap a').focus(function() {
-            //     // $('.txt-floor').show();
-            // }) 
 
-            
+            //Модальные окна
+            $('.btn-callback').click(function() { 
+                $('#modal-free-consult').modal('show'); 
+            });
+            $('.burger-menu').click(function() { 
+                $('#modal-menu').modal('show'); 
+            });
+            //Модальные окна
+
+            $('[data-toggle="tooltip"]').tooltip();
+           
             
             // Выделение цветом нужной страницы
             var location = window.location.href;  
@@ -77,25 +75,25 @@
                 <a href="plans.php?floor=8">
                     <img src="imgs/house-cut-08.png" width="490" alt="">
                 </a>
-                <a href="plans.php?floor=8" data-toggle="tooltip" data-placement="top" title="8-й этаж. Нажмите для просмотра плана">
+                <a href="plans.php?floor=8" data-toggle="tooltip" data-placement="top" title="8-й этаж">
                     <img src="imgs/house-cut-07.png" width="490" alt="" class="floor">
                 </a>
-                <a href="plans.php?floor=7" data-toggle="tooltip" data-placement="top" title="7-й этаж. Нажмите для просмотра плана">
+                <a href="plans.php?floor=7" data-toggle="tooltip" data-placement="top" title="7-й этаж">
                     <img src="imgs/house-cut-06.png" width="490" alt="" class="floor">
                 </a>
-                <a href="plans.php?floor=6" data-toggle="tooltip" data-placement="top" title="6-й этаж. Нажмите для просмотра плана">
+                <a href="plans.php?floor=6" data-toggle="tooltip" data-placement="top" title="6-й этаж">
                     <img src="imgs/house-cut-05.png" width="490" alt="" class="floor">
                 </a>
-                <a href="plans.php?floor=5" data-toggle="tooltip" data-placement="top" title="5-й этаж. Нажмите для просмотра плана">
+                <a href="plans.php?floor=5" data-toggle="tooltip" data-placement="top" title="5-й этаж">
                     <img src="imgs/house-cut-04.png" width="490" alt="" class="floor">
                 </a>
-                <a href="plans.php?floor=4" data-toggle="tooltip" data-placement="top" title="4-й этаж. Нажмите для просмотра плана">
+                <a href="plans.php?floor=4" data-toggle="tooltip" data-placement="top" title="4-й этаж">
                     <img src="imgs/house-cut-03.png" width="490" alt="" class="floor">
                 </a>
-                <a href="plans.php?floor=3" data-toggle="tooltip" data-placement="top" title="3-й этаж. Нажмите для просмотра плана">
+                <a href="plans.php?floor=3" data-toggle="tooltip" data-placement="top" title="3-й этаж">
                     <img src="imgs/house-cut-02.png" width="490" alt="" class="floor">
                 </a>
-                <a href="plans.php?floor=2" data-toggle="tooltip" data-placement="top" title="2-й этаж. Нажмите для просмотра плана"><img src="imgs/house-cut-01.png" width="490" alt="" class="floor"></a><img src="imgs/house-cut-00.png" width="490" alt="">
+                <a href="plans.php?floor=2" data-toggle="tooltip" data-placement="top" title="2-й этаж"><img src="imgs/house-cut-01.png" width="490" alt="" class="floor"></a><img src="imgs/house-cut-00.png" width="490" alt="">
             </div>
         </div>
     </div>

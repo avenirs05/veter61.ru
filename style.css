@@ -27,6 +27,14 @@ a {
 	color: #8B3330;
 }
 
+.through {
+	text-decoration: line-through;
+}
+
+.real-red {
+	color: red;
+}
+
 .border {
 	border: 1px solid red;
 }
@@ -539,6 +547,26 @@ a {
 	padding-right: 15px;
 	padding-top: 15px;
 }
+
+#modal-flat-blue .modal-content {
+	background-color: #FFF;
+}
+
+#modal-flat-blue .modal-dialog  {
+	width: 75%;
+}
+
+.plan-3d-wrap {
+	margin-top: 20px;
+}
+
+/*.first-img {
+	float: left;
+}
+
+.sec-img {
+	float: right;
+}*/
 /*Модальное окно Bootstrap*/
 
 
@@ -717,8 +745,8 @@ a {
 		font-size: 28px;
 	}
 	.menu-wrapper a {
-		font-size: 28px;
-		margin-right: 20px;
+		font-size: 26px;
+		margin-right: 15px;
 	}
 }
 

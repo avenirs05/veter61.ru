@@ -9,7 +9,6 @@
   
     <title>Фотогалерея</title>
     
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link rel="shortcut icon" href="/imgs/fav.png" type="image/png">
     <link type="text/css" rel="stylesheet" href="css/lightgallery.css">
@@ -23,12 +22,22 @@
 
     <script>    
         $(function () {
+          
             $('#carousel-main-screen').carousel();
             $('#carousel-gallery-mob').carousel();
             $("#lightgallery").lightGallery( { showThumbByDefault: true });
-            $('.btn-callback').click(function() { $('#modal-free-consult').modal('show'); });
-            $('.burger-menu').click(function() { $('#modal-menu').modal('show'); });
-            
+
+
+            // Модальные окна
+            $('.btn-callback').click(function() { 
+              $('#modal-free-consult').modal('show'); 
+            });
+            $('.burger-menu').click(function() { 
+              $('#modal-menu').modal('show'); 
+            });
+            // Модальные окна
+
+
             // Выделение цветом нужной страницы
             var location = window.location.href;  
             $('.menu-wrapper a').each(function () {  
@@ -37,7 +46,7 @@
                     $(this).addClass('change-color');                
                 }
             }); 
-            // Конец. Выделение цветом нужной страницы 
+            // Выделение цветом нужной страницы 
 
         });
     </script>
