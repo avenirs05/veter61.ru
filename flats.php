@@ -21,14 +21,14 @@
     <script>    
         $(function () {
 
-            //Модальные окна
             $('.btn-callback').click(function() { 
                 $('#modal-free-consult').modal('show'); 
             });
+
             $('.burger-menu').click(function() { 
                 $('#modal-menu').modal('show'); 
             });
-            //Модальные окна
+
 
             $('[data-toggle="tooltip"]').tooltip();
            

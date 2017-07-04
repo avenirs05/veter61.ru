@@ -573,7 +573,7 @@ a {
 #modal-flat-orange .modal-dialog,
 #modal-flat-turq .modal-dialog,
 #modal-flat-yellow .modal-dialog {
-	width: 85%;
+	width: 850px;
 }
 
 .plan-3d-wrap {
@@ -583,12 +583,12 @@ a {
 
 .left-flat-3d {
 	margin-right: 20px;
-	margin-bottom: 25px;
+	margin-bottom: 10px;
 }
 
 .right-flat-plan {
 	margin-left: 20px;
-	margin-bottom: 25px;
+	margin-bottom: 10px;
 }
 /*Модальное окно Bootstrap*/
 

@@ -39,6 +39,15 @@
             $('#flat-green').click(function() { 
                 $('#modal-flat-green').modal('show'); 
             });
+            $('#flat-orange').click(function() { 
+                $('#modal-flat-orange').modal('show'); 
+            });
+            $('#flat-yellow').click(function() { 
+                $('#modal-flat-yellow').modal('show'); 
+            });
+            $('#flat-turq').click(function() { 
+                $('#modal-flat-turq').modal('show'); 
+            });
             // PopUp квартра 3d и план
             
 
@@ -57,59 +66,73 @@
             // Подсветка нужного плана квартиры при наведении на нее
             $('#flat-orange').mouseover(function() {
                 $(this).css('background-image', 'url("imgs/flat-plan-cut-orange-hover.jpg")');
+                return false;
             })
             $('#flat-orange').mouseleave(function() {
                 $(this).css('background-image', 'url("imgs/flat-plan-cut-orange.jpg")');
+                return false;
             })
 
             $('#flat-blue').mouseover(function() {
                 $(this).css('background-image', 'url("imgs/flat-plan-cut-blue-hover.jpg")');
+                return false;
             })
             $('#flat-blue').mouseleave(function() {
                 $(this).css('background-image', 'url("imgs/flat-plan-cut-blue.jpg")');
+                return false;
             })    
 
             $('#flat-green').mouseover(function() {
                 $(this).css('background-image', 'url("imgs/flat-plan-cut-green-hover.jpg")');
+                return false;
             })
             $('#flat-green').mouseleave(function() {
                 $(this).css('background-image', 'url("imgs/flat-plan-cut-green.jpg")');
+                return false;
             })        
 
             $('#flat-violet').mouseover(function() {
                 $(this).css('background-image', 'url("imgs/flat-plan-cut-violet-hover.jpg")');
+                return false;
             })
             $('#flat-violet').mouseleave(function() {
                 $(this).css('background-image', 'url("imgs/flat-plan-cut-violet.jpg")');
+                return false;
             }) 
 
             $('#flat-yellow').mouseover(function() {
                 $(this).css('background-image', 'url("imgs/flat-plan-cut-yellow-hover.jpg")');
+                return false;
             })
             $('#flat-yellow').mouseleave(function() {
                 $(this).css('background-image', 'url("imgs/flat-plan-cut-yellow.jpg")');
+                return false;
             }) 
 
             $('#flat-turq').mouseover(function() {
                 $(this).css('background-image', 'url("imgs/flat-plan-cut-turq-hover.jpg")');
                 $('#flat-turq2').css('background-image', 'url("imgs/flat-plan-cut-turq2-hover.jpg")');
                 $('#flat-yellow').css('background-image', 'url("imgs/flat-plan-cut-yellow-fake.jpg")');
+                return false;
             })
             $('#flat-turq').mouseleave(function() {
                 $(this).css('background-image', 'url("imgs/flat-plan-cut-turq.jpg")');
                 $('#flat-turq2').css('background-image', 'url("imgs/flat-plan-cut-turq2.jpg")');
                 $('#flat-yellow').css('background-image', 'url("imgs/flat-plan-cut-yellow.jpg")');
+                return false;
             }) 
 
             $('#flat-turq2').mouseover(function() {
                 $(this).css('background-image', 'url("imgs/flat-plan-cut-turq2-hover.jpg")');
                 $('#flat-turq').css('background-image', 'url("imgs/flat-plan-cut-turq-hover.jpg")');
                 $('#flat-yellow').css('background-image', 'url("imgs/flat-plan-cut-yellow-fake.jpg")');
+                return false;
             })
             $('#flat-turq2').mouseleave(function() {
                 $(this).css('background-image', 'url("imgs/flat-plan-cut-turq2.jpg")');
                 $('#flat-turq').css('background-image', 'url("imgs/flat-plan-cut-turq.jpg")');
                 $('#flat-yellow').css('background-image', 'url("imgs/flat-plan-cut-yellow.jpg")');
+                return false;
             }) 
             // Подсветка нужного плана квартиры при наведении на нее
 
@@ -158,7 +181,7 @@
             ?>
             
             <div class="text-center">
-                <a href="#" id="flat-orange" class="flat-plan-cut"></a><a href="#" id="flat-blue" class="flat-plan-cut"></a><div href="#" id="hall" class="flat-plan-cut"></div><a href="#" id="flat-turq" class="flat-plan-cut"></a>
+                <a href="#" id="flat-orange" class="flat-plan-cut"></a><a href="#" id="flat-blue" class="flat-plan-cut" href="return false"></a><div href="#" id="hall" class="flat-plan-cut"></div><a href="#" id="flat-turq" class="flat-plan-cut"></a>
             </div>
             <div id="second-row-wrap" class="text-center">
                 <a  href="#" id="flat-green" class="flat-plan-cut"></a><a href="#" id="flat-violet" class="flat-plan-cut"></a><a href="#" id="flat-yellow" class="flat-plan-cut"></a><a href="#" id="flat-turq2" class="flat-plan-cut"></a>
