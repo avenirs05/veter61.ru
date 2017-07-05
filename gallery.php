@@ -22,7 +22,7 @@
 
     <script>    
         $(function () {
-          
+
             $('#carousel-main-screen').carousel();
             $('#carousel-gallery-mob').carousel();
             $("#lightgallery").lightGallery( { showThumbByDefault: true });
@@ -50,15 +50,15 @@
 
         });
     </script>
-
-        <style>
-            @font-face {
-                font-family: "OpenSansCondensedLight";
-                src: url("fonts/OpenSans-CondLight.ttf") format("truetype");
-                font-style: normal;
-                font-weight: normal;  
-            }
-        </style>
+    
+    <style>
+        @font-face {
+            font-family: "OpenSansCondensedLight";
+            src: url("fonts/OpenSans-CondLight.ttf") format("truetype");
+            font-style: normal;
+            font-weight: normal;  
+        }
+    </style>
 </head>
 
 <body>

@@ -99,4 +99,69 @@
     </div>
 </div>
 
+<div class="container-fluid flats visible-xs-block visible-sm-block">
+    <div class="row">
+        <div class="col-md-12">
+            <h4 class="text-center plan-3d-wrap-mob">1-к квартира. Площадь 35,1 кв.м. Цена: от <span style="text-decoration: line-through;">2 200 000 руб.</span><span class="real-red"> Звоните!</span></h4>
+            <div class="text-center flat-3d-mob">
+                <img class="" src="imgs/flat-3d-02.jpg" width="290" alt="">
+            </div>
+            <div class="text-center flat-plan-mob">
+                <img class="" src="imgs/flat-plan-02.jpg" width="290" alt="">
+            </div>
+            <hr>
+        </div>
+        <div class="col-md-12">
+            <h4 class="text-center" id="myModalLabel">1-к квартира. Площадь 36,6 кв.м. Цена: от 2 305 800 руб.</h4>
+            <div class="text-center flat-3d-mob">
+                <img class="" src="imgs/flat-3d-05.jpg" width="290" alt="">
+            </div>
+            <div class="text-center flat-plan-mob">
+                <img class="" src="imgs/flat-plan-05.jpg" width="290" alt="">
+            </div>
+            <hr>
+        </div>
+        <div class="col-md-12">
+            <h4 class="text-center" id="myModalLabel">1-к квартира. Площадь 44,7 кв.м. Цена: от <span style="text-decoration: line-through;">2 816 100 руб.</span><span class="real-red"> Звоните!</span></h4>
+            <div class="text-center flat-3d-mob">
+                <img class="" src="imgs/flat-3d-04.jpg" width="290" alt="">
+            </div>
+            <div class="text-center flat-plan-mob">
+                <img class="" src="imgs/flat-plan-04.jpg" width="290" alt="">
+            </div>
+            <hr>
+        </div>
+        <div class="col-md-12">
+            <h4 class="text-center" id="myModalLabel">1-к квартира. Площадь 46,1 кв.м. Цена: от <span style="text-decoration: line-through;">2 904 300 руб.</span><span class="real-red"> Звоните!</span></h4>
+            <div class="text-center flat-3d-mob">
+                <img class="" src="imgs/flat-3d-01.jpg" width="290" alt="">
+            </div>
+            <div class="text-center flat-plan-mob">
+                <img class="" src="imgs/flat-plan-01.jpg" width="290" alt="">
+            </div>
+            <hr>
+        </div>
+        <div class="col-md-12">
+            <h4 class="text-center" id="myModalLabel">2-к квартира. Площадь 55 кв.м. Цена: от <span style="text-decoration: line-through;">3 465 000 руб.</span><span class="real-red"> Звоните!</span></h4>
+            <div class="text-center flat-3d-mob">
+                <img class="" src="imgs/flat-3d-06.jpg" width="290" alt="">
+            </div>
+            <div class="text-center flat-plan-mob">
+                <img class="" src="imgs/flat-plan-06.jpg" width="290" alt="">
+            </div>
+            <hr>
+        </div>
+        <div class="col-md-12">
+            <h4 class="text-center" id="myModalLabel">2-к квартира. Площадь 71,1 кв.м. Цена: от <span style="text-decoration: line-through;">4 479 300 руб.</span><span class="real-red"> Звоните!</span></h4>
+            <div class="text-center flat-3d-mob">
+                <img class="" src="imgs/flat-3d-03.jpg" width="290" alt="">
+            </div>
+            <div class="text-center flat-plan-mob">
+                <img class="" src="imgs/flat-plan-03.jpg" width="290" alt="">
+            </div>
+            <hr>
+        </div>
+    </div>
+</div>
+
 <?php require_once 'footer.php'; ?>

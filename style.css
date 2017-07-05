@@ -581,14 +581,33 @@ a {
 	margin-bottom: 20px;
 }
 
+.plan-3d-wrap-mob {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.plan-3d-wrap-img {
+	width: 290px;
+}
+
 .left-flat-3d {
 	margin-right: 20px;
 	margin-bottom: 10px;
 }
 
+.flat-3d-mob {
+	/*margin-right: 20px;*/
+	margin-bottom: 20px;
+}
+
 .right-flat-plan {
 	margin-left: 20px;
 	margin-bottom: 10px;
+}
+
+.flat-plan-mob {
+/*	margin-left: 20px;
+	margin-bottom: 10px;*/
 }
 /*Модальное окно Bootstrap*/
 

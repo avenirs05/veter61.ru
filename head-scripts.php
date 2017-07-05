@@ -52,12 +52,6 @@
             font-style: normal;
             font-weight: normal;  
         }
-/*        @font-face {
-            font-family: 'Open Sans Condensed', sans-serif;
-            src: url("fonts/OpenSansCondensed-Bold.ttf") format("truetype");
-            font-style: normal;
-            font-weight: normal;  
-        }*/
     </style>
 
 </head>

@@ -48,8 +48,7 @@
             $('#flat-turq').click(function() { 
                 $('#modal-flat-turq').modal('show'); 
             });
-            // PopUp квартра 3d и план
-            
+            // PopUp квартра 3d и план          
 
             
             // Выделение цветом нужной страницы
@@ -61,7 +60,7 @@
                 }
             }); 
             // Выделение цветом нужной страницы 
-
+            
 
             // Подсветка нужного плана квартиры при наведении на нее
             $('#flat-orange').mouseover(function() {
@@ -156,38 +155,36 @@
 <body>
 <?php require_once 'modals.php'; ?>
 <div class="plans visible-md-block visible-lg-block">
-            <?php 
-                if ($_GET['floor'] == 8) {
-                    echo '<h1 class="text-center">Планировки 8 этажа</h1>';
-                } 
-                if ($_GET['floor'] == 7) {
-                    echo '<h1 class="text-center">Планировки 7 этажа</h1>';
-                } 
-                if ($_GET['floor'] == 6) {
-                    echo '<h1 class="text-center">Планировки 6 этажа</h1>';
-                } 
-                if ($_GET['floor'] == 5) {
-                    echo '<h1 class="text-center">Планировки 5 этажа</h1>';
-                } 
-                if ($_GET['floor'] == 4) {
-                    echo '<h1 class="text-center">Планировки 4 этажа</h1>';
-                } 
-                if ($_GET['floor'] == 3) {
-                    echo '<h1 class="text-center">Планировки 3 этажа</h1>';
-                } 
-                if ($_GET['floor'] == 2) {
-                    echo '<h1 class="text-center">Планировки 2 этажа</h1>';
-                } 
-            ?>
-            
-            <div class="text-center">
-                <a href="#" id="flat-orange" class="flat-plan-cut"></a><a href="#" id="flat-blue" class="flat-plan-cut" href="return false"></a><div href="#" id="hall" class="flat-plan-cut"></div><a href="#" id="flat-turq" class="flat-plan-cut"></a>
-            </div>
-            <div id="second-row-wrap" class="text-center">
-                <a  href="#" id="flat-green" class="flat-plan-cut"></a><a href="#" id="flat-violet" class="flat-plan-cut"></a><a href="#" id="flat-yellow" class="flat-plan-cut"></a><a href="#" id="flat-turq2" class="flat-plan-cut"></a>
-            </div>
+    <?php 
+        if ($_GET['floor'] == 8) {
+            echo '<h1 class="text-center">Планировки 8 этажа</h1>';
+        } 
+        if ($_GET['floor'] == 7) {
+            echo '<h1 class="text-center">Планировки 7 этажа</h1>';
+        } 
+        if ($_GET['floor'] == 6) {
+            echo '<h1 class="text-center">Планировки 6 этажа</h1>';
+        } 
+        if ($_GET['floor'] == 5) {
+            echo '<h1 class="text-center">Планировки 5 этажа</h1>';
+        } 
+        if ($_GET['floor'] == 4) {
+            echo '<h1 class="text-center">Планировки 4 этажа</h1>';
+        } 
+        if ($_GET['floor'] == 3) {
+            echo '<h1 class="text-center">Планировки 3 этажа</h1>';
+        } 
+        if ($_GET['floor'] == 2) {
+            echo '<h1 class="text-center">Планировки 2 этажа</h1>';
+        } 
+    ?>            
+    <div class="text-center">
+        <a href="#" id="flat-orange" class="flat-plan-cut"></a><a href="#" id="flat-blue" class="flat-plan-cut" href="return false"></a><div href="#" id="hall" class="flat-plan-cut"></div><a href="#" id="flat-turq" class="flat-plan-cut"></a>
+    </div>
+    <div id="second-row-wrap" class="text-center">
+        <a  href="#" id="flat-green" class="flat-plan-cut"></a><a href="#" id="flat-violet" class="flat-plan-cut"></a><a href="#" id="flat-yellow" class="flat-plan-cut"></a><a href="#" id="flat-turq2" class="flat-plan-cut"></a>
+    </div>
 </div>
 
 <?php require_once 'header.php'; ?>
-
 <?php require_once 'footer.php'; ?>
