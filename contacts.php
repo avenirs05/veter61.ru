@@ -59,7 +59,7 @@
     <div class="contacts-wrapper">
         <p><span class="red">Тел.: </span>+7 (863) 296 02 60</p>
         <p><span class="red">E-mail: </span>info@veter61.ru</p>
-        <p><span class="red">Адрес: </span>Курганная, дом 44/1</p>
+        <p><span class="red">Адрес: </span>г. Ростов-на-Дону, ул. Курганная, дом 44/1</p>
     </div>
 </div>
 

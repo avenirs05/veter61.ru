@@ -195,7 +195,7 @@
               <div id="gal-pict-26" class="item"></div>
               <div id="gal-pict-27" class="item"></div>
               <div id="gal-pict-28" class="item"></div>
-              <div id="gal-pict-29" class="item"></div>                 
+              <div id="gal-pict-29" class="item"></div>  
           </div>
         <!-- Controls -->
           <a class="left carousel-control" href="#carousel-gallery-mob" role="button" data-slide="prev">

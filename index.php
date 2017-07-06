@@ -1,7 +1,12 @@
 ﻿<?php 
     require_once 'functions.php';  
+    
+    //Кликфрог
+    $path = "clickfrogru_tcp.php";
+    include_once($path);
+
     getHeadScripts('Жилой комплекс Ветер Перемен'); 
-    require_once 'modals.php'; 
+    require_once 'modals.php';
     require_once 'header.php'; 
 ?> 
 <div id="carousel-main-screen" class="carousel slide" data-ride="carousel">    

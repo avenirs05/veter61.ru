@@ -169,6 +169,11 @@ a {
 	padding-bottom: 10px;
 }
 
+.gallery-design {
+	background-color: #fff;
+	padding-bottom: 10px;
+}
+
 .gallery h2 {
 	font-size: 36px;
 	font-weight: 700;
@@ -183,6 +188,15 @@ a {
 	padding-left: 0;
 	width: 100%;
 	background-color: #f8f8f8;
+}
+
+#gallery-design-wrap {
+	background-color: #fff;
+	margin-top: -20px;
+}
+
+#btn-want-the-same {
+	margin-top: 5px;
 }
 
 .footer {
@@ -491,6 +505,78 @@ a {
 #carousel-gallery-mob .carousel-inner > #gal-pict-29 {
 	background-image: url("imgs/gallery-mob-29.jpg");
 }
+
+/*Галерея Дизайн и Ремонт Мобильная версия*/
+#carousel-gallery-mob .carousel-inner > #design-kozl-mob-01 {
+	background-image: url("imgs/design-kozl-mob-01.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-kozl-mob-02 {
+	background-image: url("imgs/design-kozl-mob-02.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-kozl-mob-03 {
+	background-image: url("imgs/design-kozl-mob-03.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-kozl-mob-04 {
+	background-image: url("imgs/design-kozl-mob-04.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-kozl-mob-05 {
+	background-image: url("imgs/design-kozl-mob-05.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-kozl-mob-06 {
+	background-image: url("imgs/design-kozl-mob-06.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-kozl-mob-07 {
+	background-image: url("imgs/design-kozl-mob-07.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-kozl-mob-08 {
+	background-image: url("imgs/design-kozl-mob-08.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-tavr-mob-01 {
+	background-image: url("imgs/design-tavr-mob-01.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-tavr-mob-02 {
+	background-image: url("imgs/design-tavr-mob-02.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-tavr-mob-03 {
+	background-image: url("imgs/design-tavr-mob-03.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-tavr-mob-04 {
+	background-image: url("imgs/design-tavr-mob-04.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-tavr-mob-05 {
+	background-image: url("imgs/design-tavr-mob-05.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-tavr-mob-06 {
+	background-image: url("imgs/design-tavr-mob-06.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-tavr-mob-07 {
+	background-image: url("imgs/design-tavr-mob-07.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-tavr-mob-08 {
+	background-image: url("imgs/design-tavr-mob-08.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-tavr-mob-09 {
+	background-image: url("imgs/design-tavr-mob-09.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-tavr-mob-10 {
+	background-image: url("imgs/design-tavr-mob-10.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-tavr-mob-11 {
+	background-image: url("imgs/design-tavr-mob-11.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-tavr-mob-12 {
+	background-image: url("imgs/design-tavr-mob-12.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-tavr-mob-13 {
+	background-image: url("imgs/design-tavr-mob-13.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #design-tavr-mob-14 {
+	background-image: url("imgs/design-tavr-mob-14.jpg");
+}
+
+/*Галерея Дизайн и Ремонт Мобильная версия*/
+
+
 /*Конец. Переопределенные стили Bootstrap.*/
 
 /*Модальное окно Bootstrap*/
@@ -575,6 +661,7 @@ a {
 #modal-flat-yellow .modal-dialog {
 	width: 850px;
 }
+/*Модальное окно Bootstrap*/
 
 .plan-3d-wrap {
 	margin-top: 20px;
@@ -596,7 +683,6 @@ a {
 }
 
 .flat-3d-mob {
-	/*margin-right: 20px;*/
 	margin-bottom: 20px;
 }
 
@@ -605,12 +691,34 @@ a {
 	margin-bottom: 10px;
 }
 
-.flat-plan-mob {
-/*	margin-left: 20px;
-	margin-bottom: 10px;*/
+.design-text {
+	background-color: #fff;
+	padding-bottom: 20px;
 }
-/*Модальное окно Bootstrap*/
 
+.design-text h1 {
+	font-size: 36px;
+	font-family: 'OpenSansCondensedLight', sans-serif;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.gallery-design button,
+.gallery-mob button {
+	margin-top: 25px;
+	margin-bottom: 20px;
+	min-width: 220px;
+	padding: 10px 15px;
+	font-size: 20px;
+	border-radius: 3px;
+	background-color: rgb(51, 153, 51);
+	color: rgb(255, 255, 255);
+	border: medium none;
+} 
+
+.gallery-design button:hover {
+	background-color: #8B3330;
+} 
 
 /*LightGallery*/
 #lightgallery img {
@@ -693,6 +801,9 @@ a {
 }
 
 @media screen and (min-device-width: 768px) {
+	.header .phone-digits {
+		font-size: 24px;
+	}
 	#carousel-gallery-mob .carousel-inner > .item {
 		height: 512px;
 	}
