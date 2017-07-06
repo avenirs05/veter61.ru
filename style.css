@@ -699,6 +699,7 @@ a {
 .design-text h1 {
 	font-size: 36px;
 	font-family: 'OpenSansCondensedLight', sans-serif;
+	letter-spacing: 2px;
 	font-weight: 700;
 	margin-bottom: 20px;
 }

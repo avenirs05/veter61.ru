@@ -2,11 +2,17 @@
     <div class="container-fluid header">
         <a href="index.php" class="logo-wrapper"></a>
         <div class="menu-wrapper">
-            <a href="index.php">Главная</a>
+            <a href="http://mobile99.ru/index.php">Главная</a>
+            <a href="http://mobile99.ru/flats.php">Квартиры</a>
+            <a href="http://mobile99.ru/design.php">Дизайн и ремонт</a>
+            <a href="http://mobile99.ru/gallery.php">Фотогалерея</a>
+            <a href="http://mobile99.ru/contacts.php">Контакты</a>
+            
+<!--             <a href="index.php">Главная</a>
             <a href="flats.php">Квартиры</a>
             <a href="design.php">Дизайн и ремонт</a>
             <a href="gallery.php">Фотогалерея</a>
-            <a href="contacts.php">Контакты</a>
+            <a href="contacts.php">Контакты</a> -->
         </div>
         <div class="phones-wrapper text-right">
             <div>
