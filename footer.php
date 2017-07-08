@@ -20,7 +20,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 <!-- {/literal} END JIVOSITE CODE -->
 
     <!-- Yandex.Metrika counter -->
-<!--     <script type="text/javascript">
+    <script type="text/javascript">
        (function (d, w, c) {
            (w[c] = w[c] || []).push(function() {
                try {
@@ -46,7 +46,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
            } else { f(); }
        })(document, window, "yandex_metrika_callbacks2");
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/44500072" style="position:absolute; left:-9999px;" alt="" /></div></noscript> -->
+    <noscript><div><img src="https://mc.yandex.ru/watch/44500072" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 
 </body>

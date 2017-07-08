@@ -103,6 +103,13 @@ a {
 	/*font-weight: 700;*/
 } 
 
+.discount-text {
+    background-color: rgb(153, 51, 48);
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;	
+}
+
 #carousel-main-screen h1 {
 	position: absolute;
 	width: 100%;
