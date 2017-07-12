@@ -72,9 +72,9 @@
                 <div class="roof">
                     <img src="imgs/house-cut-09.png" width="500" alt="">
                 </div>
-                <a href="plans.php?floor=8">
+                <div>
                     <img src="imgs/house-cut-08.png" width="490" alt="">
-                </a>
+                </div>
                 <a href="plans.php?floor=8" data-toggle="tooltip" data-placement="top" title="8-й этаж">
                     <img src="imgs/house-cut-07.png" width="490" alt="" class="floor">
                 </a>

@@ -64,73 +64,73 @@
 
             // Подсветка нужного плана квартиры при наведении на нее
             $('#flat-orange').mouseover(function() {
-                $(this).css('background-image', 'url("imgs/flat-plan-cut-orange-hover.jpg")');
+                $(this).css('background-position', 'top right');
                 return false;
             })
             $('#flat-orange').mouseleave(function() {
-                $(this).css('background-image', 'url("imgs/flat-plan-cut-orange.jpg")');
+                $(this).css('background-position', '0% 0%');
                 return false;
             })
 
             $('#flat-blue').mouseover(function() {
-                $(this).css('background-image', 'url("imgs/flat-plan-cut-blue-hover.jpg")');
+                $(this).css('background-position', 'top right');
                 return false;
             })
             $('#flat-blue').mouseleave(function() {
-                $(this).css('background-image', 'url("imgs/flat-plan-cut-blue.jpg")');
+                $(this).css('background-position', '0% 0%');
                 return false;
             })    
 
             $('#flat-green').mouseover(function() {
-                $(this).css('background-image', 'url("imgs/flat-plan-cut-green-hover.jpg")');
+                $(this).css('background-position', 'top right');
                 return false;
             })
             $('#flat-green').mouseleave(function() {
-                $(this).css('background-image', 'url("imgs/flat-plan-cut-green.jpg")');
+                $(this).css('background-position', '0% 0%');
                 return false;
             })        
 
             $('#flat-violet').mouseover(function() {
-                $(this).css('background-image', 'url("imgs/flat-plan-cut-violet-hover.jpg")');
+                $(this).css('background-position', 'top right');
                 return false;
             })
             $('#flat-violet').mouseleave(function() {
-                $(this).css('background-image', 'url("imgs/flat-plan-cut-violet.jpg")');
+                $(this).css('background-position', '0% 0%');
                 return false;
             }) 
 
             $('#flat-yellow').mouseover(function() {
-                $(this).css('background-image', 'url("imgs/flat-plan-cut-yellow-hover.jpg")');
+                $(this).css('background-position', 'top right');
                 return false;
             })
             $('#flat-yellow').mouseleave(function() {
-                $(this).css('background-image', 'url("imgs/flat-plan-cut-yellow.jpg")');
+                $(this).css('background-position', '0% 0%');
                 return false;
             }) 
 
             $('#flat-turq').mouseover(function() {
-                $(this).css('background-image', 'url("imgs/flat-plan-cut-turq-hover.jpg")');
-                $('#flat-turq2').css('background-image', 'url("imgs/flat-plan-cut-turq2-hover.jpg")');
-                $('#flat-yellow').css('background-image', 'url("imgs/flat-plan-cut-yellow-fake.jpg")');
+                $(this).css('background-position', 'top right');
+                $("#flat-turq2").css('background-position', 'top right');
+                $("#fake-green-div").show();
                 return false;
             })
             $('#flat-turq').mouseleave(function() {
-                $(this).css('background-image', 'url("imgs/flat-plan-cut-turq.jpg")');
-                $('#flat-turq2').css('background-image', 'url("imgs/flat-plan-cut-turq2.jpg")');
-                $('#flat-yellow').css('background-image', 'url("imgs/flat-plan-cut-yellow.jpg")');
+                $(this).css('background-position', '0% 0%');
+                $("#flat-turq2").css('background-position', 'top left');
+                $("#fake-green-div").hide();
                 return false;
             }) 
 
             $('#flat-turq2').mouseover(function() {
-                $(this).css('background-image', 'url("imgs/flat-plan-cut-turq2-hover.jpg")');
-                $('#flat-turq').css('background-image', 'url("imgs/flat-plan-cut-turq-hover.jpg")');
-                $('#flat-yellow').css('background-image', 'url("imgs/flat-plan-cut-yellow-fake.jpg")');
+                $('#flat-turq').css('background-position', 'top right');
+                $("#flat-turq2").css('background-position', 'top right');
+                $("#fake-green-div").show();
                 return false;
             })
             $('#flat-turq2').mouseleave(function() {
-                $(this).css('background-image', 'url("imgs/flat-plan-cut-turq2.jpg")');
-                $('#flat-turq').css('background-image', 'url("imgs/flat-plan-cut-turq.jpg")');
-                $('#flat-yellow').css('background-image', 'url("imgs/flat-plan-cut-yellow.jpg")');
+                $('#flat-turq').css('background-position', '0% 0%');
+                $("#flat-turq2").css('background-position', 'top left');
+                $("#fake-green-div").hide();
                 return false;
             }) 
             // Подсветка нужного плана квартиры при наведении на нее
@@ -182,7 +182,7 @@
         <a href="#" id="flat-orange" class="flat-plan-cut"></a><a href="#" id="flat-blue" class="flat-plan-cut" href="return false"></a><div href="#" id="hall" class="flat-plan-cut"></div><a href="#" id="flat-turq" class="flat-plan-cut"></a>
     </div>
     <div id="second-row-wrap" class="text-center">
-        <a  href="#" id="flat-green" class="flat-plan-cut"></a><a href="#" id="flat-violet" class="flat-plan-cut"></a><a href="#" id="flat-yellow" class="flat-plan-cut"></a><a href="#" id="flat-turq2" class="flat-plan-cut"></a>
+        <a  href="#" id="flat-green" class="flat-plan-cut"></a><a href="#" id="flat-violet" class="flat-plan-cut"></a><a href="#" id="flat-yellow" class="flat-plan-cut"></a><a href="#" id="flat-turq2" class="flat-plan-cut"><div id="fake-green-div"></div></a>
     </div>
 </div>
 

@@ -43,7 +43,33 @@
 
 <div class="container-fluid about-house">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-6 hidden-xs hidden-sm">
+            <div class="img-cut-wrap">
+                <div class="">
+                    <img src="imgs/roof-for-index.png" width="100%" alt="">
+                </div>
+                <a href="plans.php?floor=8" data-toggle="tooltip" data-placement="top" title="8-й этаж">
+                    <img src="imgs/house-cut-07.png" width="100%" alt="" class="floor">
+                </a>
+                <a href="plans.php?floor=7" data-toggle="tooltip" data-placement="top" title="7-й этаж">
+                    <img src="imgs/house-cut-06.png" width="100%" alt="" class="floor">
+                </a>
+                <a href="plans.php?floor=6" data-toggle="tooltip" data-placement="top" title="6-й этаж">
+                    <img src="imgs/house-cut-05.png" width="100%" alt="" class="floor">
+                </a>
+                <a href="plans.php?floor=5" data-toggle="tooltip" data-placement="top" title="5-й этаж">
+                    <img src="imgs/house-cut-04.png" width="100%" alt="" class="floor">
+                </a>
+                <a href="plans.php?floor=4" data-toggle="tooltip" data-placement="top" title="4-й этаж">
+                    <img src="imgs/house-cut-03.png" width="100%" alt="" class="floor">
+                </a>
+                <a href="plans.php?floor=3" data-toggle="tooltip" data-placement="top" title="3-й этаж">
+                    <img src="imgs/house-cut-02.png" width="100%" alt="" class="floor">
+                </a>
+                <a href="plans.php?floor=2" data-toggle="tooltip" data-placement="top" title="2-й этаж"><img src="imgs/house-cut-01.png" width="100%" alt="" class="floor"></a><img src="imgs/house-cut-00.png" width="100%" alt="">
+            </div>
+        </div>
+        <div class="col-md-6">    
             <p>Жилой дом «Ветер перемен» – это 8-этажный 42-квартирный дом клубного типа, расположенный на тихой улочке в Ленинском районе г. Ростова-на-Дону.</p>
             <p>Концепция дома – уютный и тихий анклав для своих. Микрорайон «Новое поселение» - один из немногих, где отсутствует масштабная многоэтажная застройка.</p>
             <p class="attention text-center"><span class="red">Внимание!</span> Мы не предлагаем долевое участие. Дом построен и сдан в эксплуатацию. Вы получаете квартиры в готовом доме с зарегистрированным правом собственности!</p>

@@ -301,17 +301,13 @@ a {
 .flats h1 {
 	font-size: 36px;
 	font-weight: 700;
-	/*font-family: 'Open Sans Condensed', sans-serif;*/
 	font-family: 'OpenSansCondensedLight', sans-serif;
 	letter-spacing: 2px;
-/*	margin-bottom: 30px;*/
-/*	margin-top: 30px;*/ 
 }
 
 .plans h1 {
 	font-size: 36px;
 	font-weight: 700;
-	/*font-family: 'Open Sans Condensed', sans-serif;*/
 	font-family: 'OpenSansCondensedLight', sans-serif;
 	letter-spacing: 2px;
 	margin-bottom: 30px;
@@ -319,15 +315,9 @@ a {
 }
 
 .flats a {
-	/*position: relative;*/
 	display: block;
 }
 
-/*.txt-floor {
-	position: absolute;
-	display: none;
-}
-*/
 .img-cut-wrap {
 	margin-bottom: 30px;
 }
@@ -341,12 +331,14 @@ a {
 	margin-bottom: -3px;
 }
 
+.about-house .roof {
+	margin-left: -7px;
+}
+
 .flat-plan-cut {
 	display: inline-block;
 	background-repeat: no-repeat;
 	background-size: cover;
-/*	background-position: top top;*/
-/*	background-image: url("imgs/flat-plan-cut-orange.jpg");*/
 }
 
 #flat-orange {
@@ -373,6 +365,13 @@ a {
 	height: 321px;
 }
 
+#flat-turq2 {
+	position: relative;
+	background-image: url("imgs/flat-plan-cut-turq2.jpg");
+	width: 124px;
+	height: 322px;
+}
+
 #flat-green {
 	background-image: url("imgs/flat-plan-cut-green.jpg");
 	width: 298px;
@@ -391,15 +390,19 @@ a {
 	height: 322px;
 }
 
-#flat-turq2 {
-	background-image: url("imgs/flat-plan-cut-turq2.jpg");
-	width: 124px;
-	height: 322px;
-}
-
 #second-row-wrap {
 	margin-top: -6px;
 	margin-bottom: 30px;	
+}
+
+#fake-green-div {
+	z-index: 1000;
+	position: absolute;
+	width: 31px;
+	height: 66px;
+	background-color: #5AFF4D;
+	left: -31px;
+	display: none;
 }
 
 /*Начало. Переопределенные стили Bootstrap.*/
@@ -849,7 +852,7 @@ a {
 	}
 
 	.header .phone-digits {
-		font-size: 28px;
+		font-size: 24px;
 	}
 	.menu-wrapper a {
 		font-size: 20px;
@@ -906,7 +909,7 @@ a {
 		font-size: 28px;
 	}
 	.menu-wrapper a {
-		font-size: 26px;
+		font-size: 24px;
 		margin-right: 15px;
 	}
 }

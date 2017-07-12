@@ -49,5 +49,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
     <noscript><div><img src="https://mc.yandex.ru/watch/44500072" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 
+    <script type="text/javascript">var clickfrogru_uidh='83b9bb40dc0b3675e271f4459ed1e693';</script>
+
 </body>
 </html>

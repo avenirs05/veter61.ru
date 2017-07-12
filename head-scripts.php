@@ -29,6 +29,8 @@
 
             $('.btn-callback').click(function() { $('#modal-free-consult').modal('show'); });
             $('.burger-menu').click(function() { $('#modal-menu').modal('show'); });
+
+            $('[data-toggle="tooltip"]').tooltip();
             
             // Выделение цветом нужной страницы
             var location = window.location.href;  
