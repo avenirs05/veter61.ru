@@ -34,7 +34,11 @@
             $('#flat-blue').click(function() { 
                 if ( $('#flat-blue').hasClass('sold') ) {
                      $('#modal-flat-blue-sold').modal('show');
-                } else $('#modal-flat-blue').modal('show');
+                } else {
+                     $('#modal-flat-blue').modal('show');
+                     // $('.real-red').text('444');
+                } 
+                
             });
 
             $('#flat-violet').click(function() { 
