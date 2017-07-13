@@ -731,6 +731,23 @@ a {
 	background-color: #8B3330;
 } 
 
+.allows h1 {
+	font-size: 36px;
+	font-weight: 700;
+	/*font-family: 'Open Sans Condensed', sans-serif;*/
+	font-family: 'OpenSansCondensedLight', sans-serif;
+	letter-spacing: 2px;
+	margin-bottom: 25px;
+}
+
+.allows-wrap-text {
+	margin-bottom: 15px;
+}
+
+.allows img {
+	margin-bottom: 50px;
+}
+
 /*LightGallery*/
 #lightgallery img {
 	margin-bottom: 5px;
