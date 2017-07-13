@@ -32,31 +32,86 @@
             // PopUp квартра 3d и план 
             // Если квартира продана (имеет класс "sold") - тогда слово "Продано в popUp
             $('#flat-blue').click(function() { 
-                if ( $('#flat-blue').hasClass('sold') ) {
+                if ( $(this).hasClass('sold') ) {
                      $('#modal-flat-blue-sold').modal('show');
                 } else {
-                     $('#modal-flat-blue').modal('show');
-                     // $('.real-red').text('444');
+                    $('#modal-flat-blue').modal('show');
+
+                    if ( $(this).hasClass('floor-4') ) {  $('.price-flat').text(' 2 131 500 руб.'); }
+                    if ( $(this).hasClass('floor-4') ) {  $('.price-flat-origin').text(' 2 281 500 руб.'); }
+
+                    if ( $(this).hasClass('floor-5') ) {  $('.price-flat').text(' 2 081 500 руб.'); }
+                    if ( $(this).hasClass('floor-5') ) {  $('.price-flat-origin').text(' 2 281 500 руб.'); }
+
+                    if ( $(this).hasClass('floor-7') ) {  $('.price-flat').text(' 2 131 500 руб.'); }
+                    if ( $(this).hasClass('floor-7') ) {  $('.price-flat-origin').text(' 2 281 500 руб.'); }
+
+                    if ( $(this).hasClass('floor-8') ) {  $('.price-flat').text(' 1 999 000 руб.'); } 
+                    if ( $(this).hasClass('floor-8') ) {  $('.price-flat-origin').text(' 2 281 500 руб.'); }       
                 } 
-                
             });
+
 
             $('#flat-violet').click(function() { 
-                if ( $('#flat-violet').hasClass('sold') ) {
+                if ( $(this).hasClass('sold') ) {
                      $('#modal-flat-violet-sold').modal('show');
-                } else $('#modal-flat-violet').modal('show');
+                } else {
+                    $('#modal-flat-violet').modal('show');
+                    
+                    if ( $(this).hasClass('floor-6') ) {  $('.price-flat').text(' 2 279 000 руб.'); }
+                    if ( $(this).hasClass('floor-6') ) {  $('.price-flat-origin').text(' 2 379 000 руб.'); }                   
+                    if ( $(this).hasClass('floor-7') ) {  $('.price-flat').text(' 2 279 000 руб.'); }
+                    if ( $(this).hasClass('floor-7') ) {  $('.price-flat-origin').text(' 2 379 000 руб.'); }                   
+                    if ( $(this).hasClass('floor-8') ) {  $('.price-flat').text(' 2 279 000 руб.'); }
+                    if ( $(this).hasClass('floor-8') ) {  $('.price-flat-origin').text(' 2 379 000 руб.'); }
+                }                
             });
 
+
             $('#flat-green').click(function() { 
-                if ( $('#flat-green').hasClass('sold') ) {
+                if ( $(this).hasClass('sold') ) {
                      $('#modal-flat-green-sold').modal('show');
-                } else $('#modal-flat-green').modal('show');
+                } else {
+                    $('#modal-flat-green').modal('show');
+
+                    if ( $(this).hasClass('floor-2') ) {  $('.price-flat').text(' 2 516 000 руб.'); }
+                    if ( $(this).hasClass('floor-2') ) {  $('.price-flat-origin').text(' 2 816 100 руб.'); }
+
+                    if ( $(this).hasClass('floor-3') ) {  $('.price-flat').text(' 2 560 800 руб.'); }
+                    if ( $(this).hasClass('floor-3') ) {  $('.price-flat-origin').text(' 2 860 800 руб.'); }
+
+                    if ( $(this).hasClass('floor-6') ) {  $('.price-flat').text(' 2 605 500 руб.'); }
+                    if ( $(this).hasClass('floor-6') ) {  $('.price-flat-origin').text(' 2 905 500 руб.'); }
+
+                    if ( $(this).hasClass('floor-7') ) {  $('.price-flat').text(' 2 605 500 руб.'); }
+                    if ( $(this).hasClass('floor-7') ) {  $('.price-flat-origin').text(' 2 905 500 руб.'); }
+
+                    if ( $(this).hasClass('floor-8') ) {  $('.price-flat').text(' 2 605 500 руб.'); }
+                    if ( $(this).hasClass('floor-8') ) {  $('.price-flat-origin').text(' 2 905 500 руб.'); }
+                }
             });
 
             $('#flat-orange').click(function() { 
-                if ( $('#flat-orange').hasClass('sold') ) {
+                if ( $(this).hasClass('sold') ) {
                      $('#modal-flat-orange-sold').modal('show');
-                } else $('#modal-flat-orange').modal('show');
+                } else { 
+                    $('#modal-flat-orange').modal('show');
+
+                    if ( $(this).hasClass('floor-4') ) {  $('.price-flat').text(' 2 699 500 руб.'); }
+                    if ( $(this).hasClass('floor-4') ) {  $('.price-flat-origin').text(' 2 996 500 руб.'); }
+
+                    if ( $(this).hasClass('floor-5') ) {  $('.price-flat').text(' 2 699 500 руб.'); }
+                    if ( $(this).hasClass('floor-5') ) {  $('.price-flat-origin').text(' 2 996 500 руб.'); }
+
+                    if ( $(this).hasClass('floor-6') ) {  $('.price-flat').text(' 2 699 500 руб.'); }
+                    if ( $(this).hasClass('floor-6') ) {  $('.price-flat-origin').text(' 2 996 500 руб.'); }
+
+                    if ( $(this).hasClass('floor-7') ) {  $('.price-flat').text(' 2 699 500 руб.'); }
+                    if ( $(this).hasClass('floor-7') ) {  $('.price-flat-origin').text(' 2 996 500 руб.'); }
+
+                    if ( $(this).hasClass('floor-8') ) {  $('.price-flat').text(' 2 699 500 руб.'); }
+                    if ( $(this).hasClass('floor-8') ) {  $('.price-flat-origin').text(' 2 996 500 руб.'); }
+                }
             });
 
             $('#flat-yellow').click(function() { 

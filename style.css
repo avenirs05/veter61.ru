@@ -429,6 +429,14 @@ a {
 	display: none;
 }
 
+.price-flat {
+	color: #006600;
+}
+
+.price-flat-origin {
+	text-decoration: line-through;
+}
+
 /*Начало. Переопределенные стили Bootstrap.*/
 .navbar-default {
 	background-color: #006600;

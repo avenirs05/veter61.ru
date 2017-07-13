@@ -37,7 +37,8 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title text-center" id="myModalLabel">1-к квартира. Площадь 35,1 кв.м. Цена: от <span style="text-decoration: line-through;">2 200 000 руб.</span><span class="real-red"> Звоните!</span></h4>
+                <h4 class="modal-title text-center" id="myModalLabel">1-к квартира. Площадь 35,1 кв.м. Цена: <span class="price-flat-origin"></span><span class="price-flat"></span>
+                </h4>
             </div>
             <div class="modal-body">
                 <div class="plan-3d-wrap text-center">
@@ -54,7 +55,8 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title text-center" id="myModalLabel">1-к квартира. Площадь 35,1 кв.м. <span class="real-red">Продано</span></h4>
+                <h4 class="modal-title text-center" id="myModalLabel">1-к квартира. Площадь 35,1 кв.м. <span class="real-red">Продано</span>
+                </h4>
             </div>
             <div class="modal-body">
                 <div class="plan-3d-wrap text-center">
@@ -71,7 +73,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title text-center" id="myModalLabel">1-к квартира. Площадь 36,6 кв.м. Цена: от 2 305 800 руб.</h4>
+                <h4 class="modal-title text-center" id="myModalLabel">1-к квартира. Площадь 36,6 кв.м. Цена: <span class="price-flat-origin"></span><span class="price-flat"></span></h4>
             </div>
             <div class="modal-body">
                 <div class="plan-3d-wrap text-center">
@@ -105,7 +107,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title text-center" id="myModalLabel">1-к квартира. Площадь 44,7 кв.м. Цена: от <span style="text-decoration: line-through;">2 816 100 руб.</span><span class="real-red"> Звоните!</span></h4>
+                <h4 class="modal-title text-center" id="myModalLabel">1-к квартира. Площадь 44,7 кв.м. Цена: <span class="price-flat-origin"></span><span class="price-flat"></span></h4>
             </div>
             <div class="modal-body">
                 <div class="plan-3d-wrap text-center">
@@ -139,7 +141,8 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title text-center" id="myModalLabel">1-к квартира. Площадь 46,1 кв.м. Цена: от <span style="text-decoration: line-through;">2 904 300 руб.</span><span class="real-red"> Звоните!</span></h4>
+                <h4 class="modal-title text-center" id="myModalLabel">1-к квартира. Площадь 46,1 кв.м. Цена: <span class="price-flat-origin"></span><span class="price-flat"></span>
+                </h4>
             </div>
             <div class="modal-body">
                 <div class="plan-3d-wrap text-center">
@@ -173,7 +176,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title text-center" id="myModalLabel">2-к квартира. Площадь 55 кв.м. Цена: от <span style="text-decoration: line-through;">3 465 000 руб.</span><span class="real-red"> Звоните!</span></h4>
+                <h4 class="modal-title text-center" id="myModalLabel">2-к квартира. Площадь 55 кв.м. Цена: <span class="price-flat-origin">3 465 000 руб.</span><span class="price-flat"></span></h4>
             </div>
             <div class="modal-body">
                 <div class="plan-3d-wrap text-center">
@@ -207,7 +210,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title text-center" id="myModalLabel">2-к квартира. Площадь 71,1 кв.м. Цена: от <span style="text-decoration: line-through;">4 479 300 руб.</span><span class="real-red"> Звоните!</span></h4>
+                <h4 class="modal-title text-center" id="myModalLabel">2-к квартира. Площадь 71,1 кв.м. Цена: <span class="price-flat-origin">4 479 300 руб.</span><span class="price-flat"></span></h4>
             </div>
             <div class="modal-body">
                 <div class="plan-3d-wrap text-center">
@@ -241,7 +244,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title text-center" id="myModalLabel">2-к квартира. Площадь 71,1 кв.м. Цена: от <span style="text-decoration: line-through;">4 479 300 руб.</span><span class="real-red"> Звоните!</span></h4>
+                <h4 class="modal-title text-center" id="myModalLabel">2-к квартира. Площадь 71,1 кв.м. Цена: <span class="price-flat-origin">4 479 300 руб.</span><span class="price-flat"></span></h4>
             </div>
             <div class="modal-body">
                 <div class="plan-3d-wrap text-center">
