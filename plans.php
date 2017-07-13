@@ -29,28 +29,53 @@
                 $('#modal-menu').modal('show'); 
             });
 
-            // PopUp квартра 3d и план
+            // PopUp квартра 3d и план 
+            // Если квартира продана (имеет класс "sold") - тогда слово "Продано в popUp
             $('#flat-blue').click(function() { 
-                $('#modal-flat-blue').modal('show'); 
+                if ( $('#flat-blue').hasClass('sold') ) {
+                     $('#modal-flat-blue-sold').modal('show');
+                } else $('#modal-flat-blue').modal('show');
             });
-            $('#flat-violet').click(function() { 
-                $('#modal-flat-violet').modal('show'); 
-            });
-            $('#flat-green').click(function() { 
-                $('#modal-flat-green').modal('show'); 
-            });
-            $('#flat-orange').click(function() { 
-                $('#modal-flat-orange').modal('show'); 
-            });
-            $('#flat-yellow').click(function() { 
-                $('#modal-flat-yellow').modal('show'); 
-            });
-            $('#flat-turq').click(function() { 
-                $('#modal-flat-turq').modal('show'); 
-            });
-            // PopUp квартра 3d и план          
 
-            
+            $('#flat-violet').click(function() { 
+                if ( $('#flat-violet').hasClass('sold') ) {
+                     $('#modal-flat-violet-sold').modal('show');
+                } else $('#modal-flat-violet').modal('show');
+            });
+
+            $('#flat-green').click(function() { 
+                if ( $('#flat-green').hasClass('sold') ) {
+                     $('#modal-flat-green-sold').modal('show');
+                } else $('#modal-flat-green').modal('show');
+            });
+
+            $('#flat-orange').click(function() { 
+                if ( $('#flat-orange').hasClass('sold') ) {
+                     $('#modal-flat-orange-sold').modal('show');
+                } else $('#modal-flat-orange').modal('show');
+            });
+
+            $('#flat-yellow').click(function() { 
+                if ( $('#flat-yellow').hasClass('sold') ) {
+                     $('#modal-flat-yellow-sold').modal('show');
+                } else $('#modal-flat-yellow').modal('show');
+            });
+
+            $('#flat-turq').click(function() { 
+                if ( $('#flat-turq').hasClass('sold') ) {
+                     $('#modal-flat-turq-sold').modal('show');
+                } else $('#modal-flat-turq').modal('show');
+            });
+
+            $('#flat-turq2').click(function() { 
+                if ( $('#flat-turq2').hasClass('sold') ) {
+                     $('#modal-flat-turq2-sold').modal('show');
+                } else $('#modal-flat-turq2').modal('show');
+            });
+            // PopUp квартра 3d и план 
+            // Если квартира продана (имеет класс "sold") - тогда слово "Продано в popUp
+
+
             // Выделение цветом нужной страницы
             var location = window.location.href;  
             $('.menu-wrapper a').each(function () {  
@@ -158,32 +183,33 @@
     <?php 
         if ($_GET['floor'] == 8) {
             echo '<h1 class="text-center">Планировки 8 этажа</h1>';
+            require_once "floors/floor-8.php";
         } 
         if ($_GET['floor'] == 7) {
             echo '<h1 class="text-center">Планировки 7 этажа</h1>';
+            require_once "floors/floor-7.php";
         } 
         if ($_GET['floor'] == 6) {
             echo '<h1 class="text-center">Планировки 6 этажа</h1>';
+            require_once "floors/floor-6.php";
         } 
         if ($_GET['floor'] == 5) {
             echo '<h1 class="text-center">Планировки 5 этажа</h1>';
+            require_once "floors/floor-5.php";
         } 
         if ($_GET['floor'] == 4) {
             echo '<h1 class="text-center">Планировки 4 этажа</h1>';
+            require_once "floors/floor-4.php";
         } 
         if ($_GET['floor'] == 3) {
             echo '<h1 class="text-center">Планировки 3 этажа</h1>';
+            require_once "floors/floor-3.php";
         } 
         if ($_GET['floor'] == 2) {
             echo '<h1 class="text-center">Планировки 2 этажа</h1>';
+            require_once "floors/floor-2.php";
         } 
-    ?>            
-    <div class="text-center">
-        <a href="#" id="flat-orange" class="flat-plan-cut"></a><a href="#" id="flat-blue" class="flat-plan-cut" href="return false"></a><div href="#" id="hall" class="flat-plan-cut"></div><a href="#" id="flat-turq" class="flat-plan-cut"></a>
-    </div>
-    <div id="second-row-wrap" class="text-center">
-        <a  href="#" id="flat-green" class="flat-plan-cut"></a><a href="#" id="flat-violet" class="flat-plan-cut"></a><a href="#" id="flat-yellow" class="flat-plan-cut"></a><a href="#" id="flat-turq2" class="flat-plan-cut"><div id="fake-green-div"></div></a>
-    </div>
+    ?>                
 </div>
 
 <?php require_once 'header.php'; ?>

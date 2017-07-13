@@ -310,7 +310,7 @@ a {
 	font-weight: 700;
 	font-family: 'OpenSansCondensedLight', sans-serif;
 	letter-spacing: 2px;
-	margin-bottom: 30px;
+/*	margin-bottom: 30px;*/
 	margin-top: 30px; 
 }
 
@@ -347,10 +347,18 @@ a {
 	height: 321px;
 }
 
+#flat-orange.sold {
+	background-image: url("imgs/flat-plan-cut-orange-sold.jpg");
+}
+
 #flat-blue {
 	background-image: url("imgs/flat-plan-cut-blue.jpg");
 	width: 234px;
 	height: 321px;
+}
+
+#flat-blue.sold {
+	background-image: url("imgs/flat-plan-cut-blue-sold.jpg");
 }
 
 #hall {
@@ -363,6 +371,10 @@ a {
 	background-image: url("imgs/flat-plan-cut-turq.jpg");
 	width: 298px;
 	height: 321px;
+}
+
+#flat-turq.sold {
+	background-image: url("imgs/flat-plan-cut-turq-sold.jpg");
 }
 
 #flat-turq2 {
@@ -378,16 +390,28 @@ a {
 	height: 322px;
 }
 
+#flat-green.sold {
+	background-image: url("imgs/flat-plan-cut-green-sold.jpg");
+}
+
 #flat-violet {
 	background-image: url("imgs/flat-plan-cut-violet.jpg");
 	width: 223px;
 	height: 322px;
 }
 
+#flat-violet.sold {
+	background-image: url("imgs/flat-plan-cut-violet-sold.jpg");
+}
+
 #flat-yellow {
 	background-image: url("imgs/flat-plan-cut-yellow.jpg");
 	width: 345px;
 	height: 322px;
+}
+
+#flat-yellow.sold {
+	background-image: url("imgs/flat-plan-cut-yellow-sold.jpg");
 }
 
 #second-row-wrap {
@@ -645,30 +669,54 @@ a {
 }
 
 #modal-flat-blue .modal-title,
+#modal-flat-blue-sold .modal-title,
 #modal-flat-violet .modal-title,
+#modal-flat-violet-sold .modal-title,
 #modal-flat-green .modal-title,
+#modal-flat-green-sold .modal-title,
 #modal-flat-orange .modal-title,
+#modal-flat-orange-sold .modal-title,
 #modal-flat-turq .modal-title,
-#modal-flat-yellow .modal-title {
+#modal-flat-turq-sold .modal-title,
+#modal-flat-turq2 .modal-title,
+#modal-flat-turq2-sold .modal-title,
+#modal-flat-yellow .modal-title,
+#modal-flat-yellow-sold .modal-title {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
 #modal-flat-blue .modal-content,
+#modal-flat-blue-sold .modal-content,
 #modal-flat-violet .modal-content,
+#modal-flat-violet-sold .modal-content,
 #modal-flat-green .modal-content,
+#modal-flat-green-sold .modal-content,
 #modal-flat-orange .modal-content,
+#modal-flat-orange-sold .modal-content,
 #modal-flat-turq .modal-content,
-#modal-flat-yellow .modal-content {
+#modal-flat-turq-sold .modal-content,
+#modal-flat-turq2 .modal-content,
+#modal-flat-turq2-sold .modal-content,
+#modal-flat-yellow .modal-content,
+#modal-flat-yellow-sold .modal-content {
 	background-color: #fff;
 }
 
 #modal-flat-blue .modal-dialog,
+#modal-flat-blue-sold .modal-dialog,
 #modal-flat-violet .modal-dialog,
+#modal-flat-violet-sold .modal-dialog,
 #modal-flat-green .modal-dialog,
+#modal-flat-green-sold .modal-dialog,
 #modal-flat-orange .modal-dialog,
+#modal-flat-orange-sold .modal-dialog,
 #modal-flat-turq .modal-dialog,
-#modal-flat-yellow .modal-dialog {
+#modal-flat-turq-sold .modal-dialog,
+#modal-flat-turq2 .modal-dialog,
+#modal-flat-turq2-sold .modal-dialog,
+#modal-flat-yellow .modal-dialog,
+#modal-flat-yellow-sold .modal-dialog {
 	width: 850px;
 }
 /*Модальное окно Bootstrap*/
