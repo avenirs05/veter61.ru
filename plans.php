@@ -81,6 +81,7 @@
                 }
             });
 
+
             $('#flat-orange').click(function() { 
                 if ( $(this).hasClass('sold') ) {
                      $('#modal-flat-orange-sold').modal('show');
@@ -119,6 +120,7 @@
                     if ( $(this).hasClass('floor-8') ) { $('.price-flat-origin').text(' 3 575 000 руб.'); }
                 }
             });
+
 
 
             $('#flat-turq, #flat-turq2').click(function() { 
