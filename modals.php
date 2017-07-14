@@ -176,7 +176,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title text-center" id="myModalLabel">2-к квартира. Площадь 55 кв.м. Цена: <span class="price-flat-origin">3 465 000 руб.</span><span class="price-flat"></span></h4>
+                <h4 class="modal-title text-center" id="myModalLabel">2-к квартира. Площадь 55 кв.м. Цена: <span class="price-flat-origin"></span><span class="price-flat"></span></h4>
             </div>
             <div class="modal-body">
                 <div class="plan-3d-wrap text-center">
@@ -210,7 +210,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title text-center" id="myModalLabel">2-к квартира. Площадь 71,1 кв.м. Цена: <span class="price-flat-origin">4 479 300 руб.</span><span class="price-flat"></span></h4>
+                <h4 class="modal-title text-center" id="myModalLabel">2-к квартира. Площадь 71,1 кв.м. Цена: <span class="price-flat-origin"></span><span class="price-flat"></span></h4>
             </div>
             <div class="modal-body">
                 <div class="plan-3d-wrap text-center">
@@ -239,39 +239,7 @@
     </div>
 </div>
 
-<div class="modal fade" id="modal-flat-turq2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title text-center" id="myModalLabel">2-к квартира. Площадь 71,1 кв.м. Цена: <span class="price-flat-origin">4 479 300 руб.</span><span class="price-flat"></span></h4>
-            </div>
-            <div class="modal-body">
-                <div class="plan-3d-wrap text-center">
-                    <img class="left-flat-3d" src="imgs/flat-3d-03.jpg" height="420" alt="">
-                    <img class="right-flat-plan" src="imgs/flat-plan-03.jpg" height="420" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="modal fade" id="modal-flat-turq2-sold" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title text-center" id="myModalLabel">2-к квартира. Площадь 71,1 кв.м. <span class="real-red">Продано.</span></h4>
-            </div>
-            <div class="modal-body">
-                <div class="plan-3d-wrap text-center">
-                    <img class="left-flat-3d" src="imgs/flat-3d-03.jpg" height="420" alt="">
-                    <img class="right-flat-plan" src="imgs/flat-plan-03.jpg" height="420" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
