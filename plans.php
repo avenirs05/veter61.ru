@@ -122,7 +122,6 @@
             });
 
 
-
             $('#flat-turq, #flat-turq2').click(function() { 
                 if ( $('#flat-turq').hasClass('sold') ) {
                      $('#modal-flat-turq-sold').modal('show');

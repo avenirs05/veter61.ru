@@ -60,7 +60,7 @@ require_once 'functions.php';
 
 $headers = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-$to = 'domosed365365@gmail.com';
+$to = 'info@veter61.ru';
 $subject = "Заявка с сайта veter61.ru";
 
 if (isset($_GET['submit-free-consult'])) {  
