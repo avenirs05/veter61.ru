@@ -100,6 +100,15 @@
               <a href="imgs/gallery-10.jpg">
                   <img src="imgs/gallery-thumb-10.jpg">
               </a>
+			  <a href="imgs/gallery-10-a.jpg">
+                  <img src="imgs/gallery-thumb-10-a.jpg">
+              </a>
+			  <a href="imgs/gallery-10-b.jpg">
+                  <img src="imgs/gallery-thumb-10-b.jpg">
+              </a>
+			  <a href="imgs/gallery-10-c.jpg">
+                  <img src="imgs/gallery-thumb-10-c.jpg">
+              </a>
               <a href="imgs/gallery-11.jpg">
                   <img src="imgs/gallery-thumb-11.jpg">
               </a>
@@ -176,7 +185,10 @@
               <div id="gal-pict-07" class="item"></div>
               <div id="gal-pict-08" class="item"></div>
               <div id="gal-pict-09" class="item"></div>  
-              <div id="gal-pict-10" class="item"></div>   
+              <div id="gal-pict-10" class="item"></div>  
+			  <div id="gal-pict-10-a" class="item"></div>  
+			  <div id="gal-pict-10-b" class="item"></div>  
+			  <div id="gal-pict-10-c" class="item"></div>  
               <div id="gal-pict-11" class="item"></div>
               <div id="gal-pict-12" class="item"></div>
               <div id="gal-pict-13" class="item"></div>

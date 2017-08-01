@@ -513,6 +513,15 @@ a {
 #carousel-gallery-mob .carousel-inner > #gal-pict-10 {
 	background-image: url("imgs/gallery-mob-10.jpg");
 }
+#carousel-gallery-mob .carousel-inner > #gal-pict-10-a {
+	background-image: url("imgs/gallery-mob-10-a.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-10-b {
+	background-image: url("imgs/gallery-mob-10-b.jpg");
+}
+#carousel-gallery-mob .carousel-inner > #gal-pict-10-c {
+	background-image: url("imgs/gallery-mob-10-c.jpg");
+}
 #carousel-gallery-mob .carousel-inner > #gal-pict-11 {
 	background-image: url("imgs/gallery-mob-11.jpg");
 }

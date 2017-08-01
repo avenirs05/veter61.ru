@@ -1,8 +1,8 @@
 $(function () {
 
-	$('#btn-free-consult').click(function() {
-		$('#modal-free-consult').modal('show');
-	});
+	// $('#btn-free-consult').click(function() {
+	// 	$('#modal-free-consult').modal('show');
+	// });
 
 	$('#btn-connect').click(function() {
 		$('#modal-connect-us').modal('show');
