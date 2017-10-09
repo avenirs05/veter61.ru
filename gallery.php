@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link rel="shortcut icon" href="/imgs/fav.png" type="image/png">
     <link type="text/css" rel="stylesheet" href="css/lightgallery.css">
+    <link type="text/css" rel="stylesheet" href="css/lg-tranzitions.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">    
     <link href="style.css" rel="stylesheet">
 
@@ -25,7 +26,9 @@
 
             $('#carousel-main-screen').carousel();
             $('#carousel-gallery-mob').carousel();
-            $("#lightgallery").lightGallery( { showThumbByDefault: true });
+            $("#lightgallery").lightGallery( 
+              { showThumbByDefault: true
+           });
 
 
             // Модальные окна
@@ -186,9 +189,9 @@
               <div id="gal-pict-08" class="item"></div>
               <div id="gal-pict-09" class="item"></div>  
               <div id="gal-pict-10" class="item"></div>  
-			  <div id="gal-pict-10-a" class="item"></div>  
-			  <div id="gal-pict-10-b" class="item"></div>  
-			  <div id="gal-pict-10-c" class="item"></div>  
+          	  <div id="gal-pict-10-a" class="item"></div>  
+          	  <div id="gal-pict-10-b" class="item"></div>  
+          	  <div id="gal-pict-10-c" class="item"></div>  
               <div id="gal-pict-11" class="item"></div>
               <div id="gal-pict-12" class="item"></div>
               <div id="gal-pict-13" class="item"></div>

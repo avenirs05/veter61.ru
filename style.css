@@ -355,6 +355,10 @@ a {
 	background-image: url("imgs/flat-plan-cut-orange-sold.jpg");
 }
 
+#flat-orange.reserved {
+	background-image: url("imgs/flat-plan-cut-orange-reserved.jpg");
+}
+
 #flat-blue {
 	background-image: url("imgs/flat-plan-cut-blue.jpg");
 	width: 234px;
@@ -363,6 +367,10 @@ a {
 
 #flat-blue.sold {
 	background-image: url("imgs/flat-plan-cut-blue-sold.jpg");
+}
+
+#flat-blue.reserved {
+	background-image: url("imgs/flat-plan-cut-blue-reserved.jpg");
 }
 
 #hall {
@@ -379,6 +387,10 @@ a {
 
 #flat-turq.sold {
 	background-image: url("imgs/flat-plan-cut-turq-sold.jpg");
+}
+
+#flat-turq.reserved {
+	background-image: url("imgs/flat-plan-cut-turq-reserved.jpg");
 }
 
 #flat-turq2 {
@@ -398,6 +410,10 @@ a {
 	background-image: url("imgs/flat-plan-cut-green-sold.jpg");
 }
 
+#flat-green.reserved {
+	background-image: url("imgs/flat-plan-cut-green-reserved.jpg");
+}
+
 #flat-violet {
 	background-image: url("imgs/flat-plan-cut-violet.jpg");
 	width: 223px;
@@ -408,6 +424,10 @@ a {
 	background-image: url("imgs/flat-plan-cut-violet-sold.jpg");
 }
 
+#flat-violet.reserved {
+	background-image: url("imgs/flat-plan-cut-violet-reserved.jpg");
+}
+
 #flat-yellow {
 	background-image: url("imgs/flat-plan-cut-yellow.jpg");
 	width: 345px;
@@ -416,6 +436,10 @@ a {
 
 #flat-yellow.sold {
 	background-image: url("imgs/flat-plan-cut-yellow-sold.jpg");
+}
+
+#flat-yellow.reserved {
+	background-image: url("imgs/flat-plan-cut-yellow-reserved.jpg");
 }
 
 #second-row-wrap {
@@ -442,10 +466,10 @@ a {
 }
 
 .left-arrow {
-	font-size: 36px;
+	font-size: 76px;
 	position: absolute;
 	left: 70px;
-	top: 53%;
+	top: 47%;
 }
 
 .left-arrow:hover,
@@ -454,10 +478,10 @@ a {
 }
 
 .right-arrow {
-	font-size: 36px;
+	font-size: 76px;
 	position: absolute;
 	right: 70px;
-	top: 53%;
+	top: 47%;
 }
 
 /*Начало. Переопределенные стили Bootstrap.*/
@@ -710,53 +734,74 @@ a {
 
 #modal-flat-blue .modal-title,
 #modal-flat-blue-sold .modal-title,
+#modal-flat-blue-reserved .modal-title,
 #modal-flat-violet .modal-title,
 #modal-flat-violet-sold .modal-title,
+#modal-flat-violet-reserved .modal-title,
 #modal-flat-green .modal-title,
 #modal-flat-green-sold .modal-title,
+#modal-flat-green-reserved .modal-title,
 #modal-flat-orange .modal-title,
 #modal-flat-orange-sold .modal-title,
+#modal-flat-orange-reserved .modal-title,
 #modal-flat-turq .modal-title,
 #modal-flat-turq-sold .modal-title,
+#modal-flat-turq-reserved .modal-title,
 #modal-flat-turq2 .modal-title,
 #modal-flat-turq2-sold .modal-title,
+#modal-flat-turq2-reserved .modal-title,
 #modal-flat-yellow .modal-title,
-#modal-flat-yellow-sold .modal-title {
+#modal-flat-yellow-sold .modal-title, 
+#modal-flat-yellow-reserved .modal-title {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
 #modal-flat-blue .modal-content,
 #modal-flat-blue-sold .modal-content,
+#modal-flat-blue-reserved .modal-content,
 #modal-flat-violet .modal-content,
 #modal-flat-violet-sold .modal-content,
+#modal-flat-violet-reserved .modal-content,
 #modal-flat-green .modal-content,
 #modal-flat-green-sold .modal-content,
+#modal-flat-green-reserved .modal-content,
 #modal-flat-orange .modal-content,
 #modal-flat-orange-sold .modal-content,
+#modal-flat-orange-reserved .modal-content,
 #modal-flat-turq .modal-content,
 #modal-flat-turq-sold .modal-content,
+#modal-flat-turq-reserved .modal-content,
 #modal-flat-turq2 .modal-content,
 #modal-flat-turq2-sold .modal-content,
+#modal-flat-turq2-reserved .modal-content,
 #modal-flat-yellow .modal-content,
-#modal-flat-yellow-sold .modal-content {
+#modal-flat-yellow-sold .modal-content,
+#modal-flat-yellow-reserved .modal-content {
 	background-color: #fff;
 }
 
 #modal-flat-blue .modal-dialog,
 #modal-flat-blue-sold .modal-dialog,
+#modal-flat-blue-reserved .modal-dialog,
 #modal-flat-violet .modal-dialog,
 #modal-flat-violet-sold .modal-dialog,
+#modal-flat-violet-reserved .modal-dialog,
 #modal-flat-green .modal-dialog,
 #modal-flat-green-sold .modal-dialog,
+#modal-flat-green-reserved .modal-dialog,
 #modal-flat-orange .modal-dialog,
 #modal-flat-orange-sold .modal-dialog,
+#modal-flat-orange-reserved .modal-dialog,
 #modal-flat-turq .modal-dialog,
 #modal-flat-turq-sold .modal-dialog,
+#modal-flat-turq-reserved .modal-dialog,
 #modal-flat-turq2 .modal-dialog,
 #modal-flat-turq2-sold .modal-dialog,
+#modal-flat-turq2-reserved .modal-dialog,
 #modal-flat-yellow .modal-dialog,
-#modal-flat-yellow-sold .modal-dialog {
+#modal-flat-yellow-sold .modal-dialog,
+#modal-flat-yellow-reserved .modal-dialog {
 	width: 850px;
 }
 /*Модальное окно Bootstrap*/
@@ -837,9 +882,20 @@ a {
 }
 
 /*LightGallery*/
+
+#lightgallery a {
+	display: inline-block;
+}
+
 #lightgallery img {
 	margin-bottom: 5px;
 }
+
+
+
+
+
+
 /*LightGallery*/
 
 @media screen and (min-device-width: 320px) {

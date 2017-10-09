@@ -30,11 +30,16 @@
             });
 
             // PopUp квартра 3d и план 
-            // Если квартира продана (имеет класс "sold") - тогда слово "Продано в popUp
+            // Если квартира продана (имеет класс "sold") - тогда слово "Продано" в popUp
+            // Если квартира забронирована (имеет класс "reserved") - тогда слово "Забронировано" в popUp
             $('#flat-blue').click(function() { 
                 if ( $(this).hasClass('sold') ) {
                      $('#modal-flat-blue-sold').modal('show');
-                } else {
+                } 
+                else if ( $(this).hasClass('reserved') ) {
+                    $('#modal-flat-blue-reserved').modal('show');
+                }
+                else {
                     $('#modal-flat-blue').modal('show');
                     if ( $(this).hasClass('floor-4') ) { $('.price-flat').text(' 2 131 500 руб.'); }
                     if ( $(this).hasClass('floor-4') ) { $('.price-flat-origin').text(' 2 281 500 руб.'); }
@@ -51,7 +56,11 @@
             $('#flat-violet').click(function() { 
                 if ( $(this).hasClass('sold') ) {
                      $('#modal-flat-violet-sold').modal('show');
-                } else {
+                }
+                else if ( $(this).hasClass('reserved') ) {
+                    $('#modal-flat-violet-reserved').modal('show');
+                }
+                else {
                     $('#modal-flat-violet').modal('show');                    
                     if ( $(this).hasClass('floor-6') ) { $('.price-flat').text(' 2 279 000 руб.'); }
                     if ( $(this).hasClass('floor-6') ) { $('.price-flat-origin').text(' 2 379 000 руб.'); } 
@@ -66,7 +75,11 @@
             $('#flat-green').click(function() { 
                 if ( $(this).hasClass('sold') ) {
                      $('#modal-flat-green-sold').modal('show');
-                } else {
+                } 
+                else if ( $(this).hasClass('reserved') ) {
+                    $('#modal-flat-green-reserved').modal('show');
+                }
+                else {
                     $('#modal-flat-green').modal('show');
                     if ( $(this).hasClass('floor-2') ) { $('.price-flat').text(' 2 516 000 руб.'); }
                     if ( $(this).hasClass('floor-2') ) { $('.price-flat-origin').text(' 2 816 100 руб.'); }
@@ -85,7 +98,11 @@
             $('#flat-orange').click(function() { 
                 if ( $(this).hasClass('sold') ) {
                      $('#modal-flat-orange-sold').modal('show');
-                } else { 
+                } 
+                else if ( $(this).hasClass('reserved') ) {
+                    $('#modal-flat-orange-reserved').modal('show');
+                }
+                else { 
                     $('#modal-flat-orange').modal('show');
                     if ( $(this).hasClass('floor-4') ) { $('.price-flat').text(' 2 699 500 руб.'); }
                     if ( $(this).hasClass('floor-4') ) { $('.price-flat-origin').text(' 2 996 500 руб.'); }
@@ -104,7 +121,11 @@
             $('#flat-yellow').click(function() { 
                 if ( $(this).hasClass('sold') ) {
                      $('#modal-flat-yellow-sold').modal('show');
-                } else { 
+                } 
+                else if ( $(this).hasClass('reserved') ) {
+                    $('#modal-flat-yellow-reserved').modal('show');
+                }
+                else { 
                     $('#modal-flat-yellow').modal('show'); 
                     if ( $(this).hasClass('floor-2') ) { $('.price-flat').text(' 3 065 000 руб.'); }
                     if ( $(this).hasClass('floor-2') ) { $('.price-flat-origin').text(' 3 465 000 руб.'); }
@@ -125,7 +146,11 @@
             $('#flat-turq, #flat-turq2').click(function() { 
                 if ( $('#flat-turq').hasClass('sold') ) {
                      $('#modal-flat-turq-sold').modal('show');
-                } else { 
+                } 
+                else if ( $(this).hasClass('reserved') ) {
+                    $('#modal-flat-turq-reserved').modal('show');
+                }
+                else { 
                     $('#modal-flat-turq').modal('show'); 
                     if ( $('#flat-turq').hasClass('floor-2') ) { $('.price-flat').text(' 4 029 300 руб.'); }
                     if ( $('#flat-turq').hasClass('floor-2') ) { $('.price-flat-origin').text(' 4 479 300 руб.'); }
