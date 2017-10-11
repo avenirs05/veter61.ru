@@ -500,6 +500,24 @@ a {
 	height: 87vh;
 }
 
+#video-main {
+	position: absolute;
+	width: 44%;
+	height: 315px;
+	z-index: 1000;
+	left: 28%;
+	top: 25%;
+}
+
+#video-main-mob {
+	position: absolute;
+	width: 60%;
+	height: 100px;
+	z-index: 1000;
+	left: 20%;
+	top: 34%;
+}
+
 #carousel-gallery-mob .carousel-inner > .item {
 	height: 320px;
 	background-repeat: no-repeat;
@@ -972,7 +990,39 @@ a {
 	}
 }
 
+@media screen and (min-device-width: 360px) {
+	#video-main-mob {
+		width: 64%;
+		height: 130px;
+		left: 18%;
+		top: 28%;
+	}
+}
+
+@media screen and (min-device-width: 360px) {
+	#video-main-mob {
+		width: 66%;
+		height: 130px;
+		left: 17%;
+		top: 34%;
+	}
+}
+
+@media screen and (min-device-width: 480px) {
+	#video-main-mob {
+		width: 60%;
+		height: 150px;
+		left: 20%;
+		top: 26%;
+	}
+}
+
 @media screen and (min-device-width: 768px) {
+	@media screen and (min-device-width: 480px) {
+		#video-main-mob {
+			height: 250px;
+		}
+	}
 	.header .phone-digits {
 		font-size: 24px;
 	}

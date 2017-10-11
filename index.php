@@ -9,7 +9,18 @@
     require_once 'modals.php';
     require_once 'header.php'; 
 ?> 
-<div id="carousel-main-screen" class="carousel slide" data-ride="carousel">    
+<div id="carousel-main-screen" class="carousel slide" data-ride="carousel"> 
+    
+<!--         <div id="video-main" class="visible-md-block visible-lg-block">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/m0S5FKVtgWY" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div id="video-main-mob" class="visible-xs-block visible-sm-block">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/m0S5FKVtgWY" frameborder="0" allowfullscreen></iframe>
+        </div> -->
+
+
+
     <h1 class="text-center">Квартиры от застройщика в новом доме в 10 минутах от центра города!</h1>
 <!--     <h2 class="text-center">Квартиры от застройщика в новом доме в 10 минутах от центра города!</h2> -->
   <!-- Indicators -->
