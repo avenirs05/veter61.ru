@@ -43,7 +43,7 @@
                     $('#modal-flat-blue').modal('show');
                     if ( $(this).hasClass('floor-4') ) { $('.price-flat').text(' 2 131 500 руб.'); }
                     if ( $(this).hasClass('floor-4') ) { $('.price-flat-origin').text(' 2 281 500 руб.'); }
-                    if ( $(this).hasClass('floor-5') ) { $('.price-flat').text(' 2 081 500 руб.'); }
+                    if ( $(this).hasClass('floor-5') ) { $('.price-flat').text(' 2 131 500 руб.'); }
                     if ( $(this).hasClass('floor-5') ) { $('.price-flat-origin').text(' 2 281 500 руб.'); }
                     if ( $(this).hasClass('floor-7') ) { $('.price-flat').text(' 2 131 500 руб.'); }
                     if ( $(this).hasClass('floor-7') ) { $('.price-flat-origin').text(' 2 281 500 руб.'); }
