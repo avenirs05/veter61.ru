@@ -501,22 +501,39 @@ a {
 }
 
 #video-main {
-	position: absolute;
+	/* position: absolute; */
 	width: 44%;
 	height: 315px;
-	z-index: 1000;
-	left: 28%;
-	top: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	
+	/* z-index: 1000; */
+	/* left: 28%; */
+	/* top: 25%; */
 }
 
 #video-main-mob {
-	position: absolute;
+	/* position: absolute; */
 	width: 60%;
-	height: 100px;
-	z-index: 1000;
-	left: 20%;
-	top: 34%;
+	height: 100px;	
+	margin-left: auto;
+	margin-right: auto;
+	/* z-index: 1000; */
+	/* left: 20%; */
+	/* top: 34%; */
 }
+
+.video-main-wrap {
+	background-color: #fff;
+	padding-bottom: 25px;
+}
+
+.video-main-wrap-mob {
+	background-color: #fff;
+	padding-bottom: 25px;
+}
+
 
 #carousel-gallery-mob .carousel-inner > .item {
 	height: 320px;

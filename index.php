@@ -9,19 +9,9 @@
     require_once 'modals.php';
     require_once 'header.php'; 
 ?> 
-<div id="carousel-main-screen" class="carousel slide" data-ride="carousel"> 
-    
-<!--         <div id="video-main" class="visible-md-block visible-lg-block">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/m0S5FKVtgWY" frameborder="0" allowfullscreen></iframe>
-        </div>
+<div id="carousel-main-screen" class="carousel slide" data-ride="carousel">  
 
-        <div id="video-main-mob" class="visible-xs-block visible-sm-block">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/m0S5FKVtgWY" frameborder="0" allowfullscreen></iframe>
-        </div> -->
-
-
-
-    <h1 class="text-center">Квартиры от застройщика в новом доме в 10 минутах от центра города!</h1>
+	<h1 class="text-center">Квартиры от застройщика в новом доме в 10 минутах от центра города!</h1>
 <!--     <h2 class="text-center">Квартиры от застройщика в новом доме в 10 минутах от центра города!</h2> -->
   <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -117,7 +107,7 @@
     <div class="row">
         <div class="col-md-12">
             <p>Квартиры продаются в состоянии «стройвариант». При желании предоставляются услуги дизайна интерьера и ремонта «под ключ».</p>
-            <p>В доме имеются 1- и 2-комнатные квартиры площадью от 35,1 кв.м до 71,1 кв.м. При этом возможно объединение квартир на выгодных условиях. Также в продаже нежилые помещения и машино-места в подземном паркинге. Количество квартир и машино-мест ограничено. <span class="discount-text">Летняя акция! Скидки на квартиры до 450 000 руб!</span></p>
+            <p>В доме имеются 1- и 2-комнатные квартиры площадью от 35,1 кв.м до 71,1 кв.м. При этом возможно объединение квартир на выгодных условиях. Также в продаже нежилые помещения и машино-места в подземном паркинге. Количество квартир и машино-мест ограничено. <span class="discount-text">Скидки на квартиры до 450 000 руб!</span></p>
             <p>Дополнительная информация по телефону: 8 (863) 296-02-60 (без выходных).</p>
             <p class="attention text-center"><span class="red">Внимание!</span> Дом построен в строгом соответствии с проектом, прошедшим экспертизу, и разрешением на строительство. Никаких «самозастроев» и «долевых» квартир!</p>
             <p>Жилой дом «Ветер перемен»: взгляните по-новому на городскую жизнь!</p>
@@ -125,5 +115,18 @@
         </div>
     </div>
 </div>
+
+<div class="video-main-wrap visible-md-block visible-lg-block">
+	<div id="video-main">
+		<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/Rv6SvmXtKQo" frameborder="0" allowfullscreen></iframe>
+	</div>
+</div>
+
+<div class="video-main-wrap-mob visible-xs-block visible-sm-block">
+	<div id="video-main-mob">
+		<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/Rv6SvmXtKQo" frameborder="0" allowfullscreen></iframe>
+	</div> 
+</div> 
+<!-- test -->
 
 <?php require_once 'footer.php'; ?>
